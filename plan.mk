@@ -7,7 +7,7 @@ THUMB = $(ASY:.asy=.thumb.png)
 PDF = $(ASY:.asy=.pdf)
 JPG = $(ASY:.asy=.jpg)
 
-GENERATED_FILES = $(SVG) $(PNG) $(THUMB) $(PDF) $(JPG)
+GENERATED_FILES = $(SVG) #$(PNG) $(THUMB) $(PDF) $(JPG)
 
 .PHONY : all
 all : $(GENERATED_FILES)

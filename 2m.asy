@@ -1,9 +1,8 @@
-size(8.5inch);
-
 defaultpen(0.01);
 pen p=cmyk(1,1,1,1);
 
-filldraw(box((0.000,0),(0.100,1)),red,p);
+filldraw(box((0.000,0),(0.100,1)),cmyk(1,0.5,0,0.2)+opacity(0.5),p);
+
 filldraw(box((0.100,0),(0.200,1)),blue,p);
 filldraw(box((0.200,0),(0.275,1)),yellow,p);
 filldraw(box((0.275,0),(0.300,1)),yellow,p);
