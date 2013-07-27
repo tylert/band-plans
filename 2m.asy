@@ -1,5 +1,4 @@
-// 2m Band Plan
-// 144-148 MHz
+// 2m Band, 144 to 148 MHz
 // Amateur Primary Exclusive
 // (Approved September 23rd 1995)
 
@@ -26,15 +25,20 @@ label(scale(0.1)*rotate(-90)*"144.100",(0.100,0),S);
 filldraw(box((0.100,0),(0.200,1)),cwam,p);
 label(scale(0.1)*rotate(-90)*"144.200",(0.200,0),S);
 
+// 144.200-144.275   General SSB operation
+// 144.200 - 144.275    AM NARROW BAND MODES EXCLUSIVE SSB (ACSSB, SSB, CW, TY )
 filldraw(box((0.200,0),(0.275,1)),am,p);
 label(scale(0.1)*rotate(-90)*"144.275",(0.275,0),S);
 
+// 144.275-144.300   Propagation beacons
+// 144.275 - 144.300   PROPAGATION BEACON NETWORK EXCLUSIVE
 filldraw(box((0.275,0),(0.300,1)),CW,p);
 label(scale(0.1)*rotate(-90)*"144.300",(0.300,0),S);
 
 filldraw(box((0.300,0),(0.500,1)),digi,p);
 label(scale(0.1)*rotate(-90)*"144.500",(0.500,0),S);
 
+// 144.500 - 144.600   REPEATER INPUTS PRIMARY, LINEAR TRANSLATOR INPUTS SECONDARY(10)
 filldraw(box((0.500,0),(0.600,1)),fm,p);
 label(scale(0.1)*rotate(-90)*"144.600",(0.600,0),S);
 
@@ -44,9 +48,13 @@ label(scale(0.1)*rotate(-90)*"144.900",(0.900,0),S);
 filldraw(box((0.900,0),(1.100,1)),digi,p);
 label(scale(0.1)*rotate(-90)*"145.100",(1.100,0),S);
 
+// 145.10-145.20   Linear translator outputs
+// 145.100 - 145.200   REPEATER OUTPUTS PRIMARY, LINEAR TRANSLATOR OUTPUTS SECONDARY (10)
 filldraw(box((1.100,0),(1.200,1)),fm,p);
 label(scale(0.1)*rotate(-90)*"145.200",(1.200,0),S);
 
+// 145.20-145.50   FM repeater outputs
+// 145.200 - 145.500   REPEATER OUTPUTS(10)
 filldraw(box((1.200,0),(1.500,1)),fm,p);
 label(scale(0.1)*rotate(-90)*"145.500",(1.500,0),S);
 
@@ -62,36 +70,36 @@ label(scale(0.1)*rotate(-90)*"146.000",(2.000,0),S);
 filldraw(box((2.010,0),(2.370,1)),fm,p);
 label(scale(0.1)*rotate(-90)*"146.370",(2.370,0),S);
 
+// 146.40-146.58   Simplex
+// 146.400 - 146.580   FM SIMPLEX (5)(6)
 filldraw(box((2.400,0),(2.580,1)),fm,p);
 label(scale(0.1)*rotate(-90)*"146.580",(2.580,0),S);
 
+// 146.61-146.97   Repeater outputs
+// 147.00-147.39   Repeater outputs
+// 146.610 - 147.390   REPEATER OUTPUTS (10)
 filldraw(box((2.610,0),(3.390,1)),fm,p);
 label(scale(0.1)*rotate(-90)*"147.390",(3.390,0),S);
 
+// 147.42-147.57   Simplex
+// 147.420 - 147.570   FM SIMPLEX (30 kHz raster)(7)
 filldraw(box((3.420,0),(3.570,1)),fm,p);
 label(scale(0.1)*rotate(-90)*"147.570",(3.570,0),S);
 
+// 147.60-147.99   Repeater inputs
+// 147.600 - 147.990   REPEATER INPUTS (10)
 filldraw(box((3.600,0),(3.990,1)),fm,p);
-label(scale(0.1)*rotate(-90)*"148.000",(4.000,0),S);
+label(scale(0.1)*rotate(-90)*"147.990",(3.990,0),S);
 
 // 144.200   National calling frequency
-// 144.200-144.275   General SSB operation
-// 144.275-144.300   Propagation beacons
 // 144.30-144.50   New OSCAR subband
 // 144.50-144.60   Linear translator inputs
 // 144.60-144.90   FM repeater inputs
 // 144.90-145.10   Weak signal and FM simplex (145.01,03,05,07,09 are widely used for packet)
-// 145.10-145.20   Linear translator outputs
-// 145.20-145.50   FM repeater outputs
 // 145.50-145.80   Miscellaneous and experimental modes
 // 145.80-146.00   OSCAR subband
 // 146.01-146.37   Repeater inputs
-// 146.40-146.58   Simplex
 // 146.52  National Simplex Calling Frequency
-// 146.61-146.97   Repeater outputs
-// 147.00-147.39   Repeater outputs
-// 147.42-147.57   Simplex
-// 147.60-147.99   Repeater inputs
 // 
 // Notes: The frequency 146.40 MHz is used in some areas as a repeater input. This
 // band plan has been proposed by the ARRL VHF-UHF Advisory Committee.
@@ -99,28 +107,19 @@ label(scale(0.1)*rotate(-90)*"148.000",(4.000,0),S);
 // 
 // 
 // 144.100   CW CALLING FREQUENCY
-// 144.200 - 144.275    AM NARROW BAND MODES EXCLUSIVE SSB (ACSSB, SSB, CW, TY )
 // other modes with bandwidth less than 3 kHz -
 // FAX, SSTV, RTCALLING FREQUENCY (1)
-// 144.275 - 144.300   PROPAGATION BEACON NETWORK EXCLUSIVE
 // 144.300 - 144.500   DIGITAL (2)
 // 144.340   NATIONAL ATV COORDINATION FREQUENCY (1)
 // 144.390   NATIONAL APRS FREQUENCY (9)
-// 144.500 - 144.600   REPEATER INPUTS PRIMARY, LINEAR TRANSLATOR INPUTS SECONDARY(10)
 // 144.600 - 144.900   REPEATER INPUTS(10)
 // 144.900 - 145.100   DIGITAL (3)
-// 145.100 - 145.200   REPEATER OUTPUTS PRIMARY, LINEAR TRANSLATOR OUTPUTS SECONDARY (10)
-// 145.200 - 145.500   REPEATER OUTPUTS(10)
 // 145.500 - 145.590   SAREX/ARISS LINKS
 // 145.590 - 145.790   DIGITAL (4)
 // 145.800 - 146.000   EXCLUSIVE AMATEUR SATELLITE SERVICE, ARISS
 // 146.010 - 146.370   REPEATER INPUTS(10)
-// 146.400 - 146.580   FM SIMPLEX (5)(6)
 // 146.520   NATIONAL FM CALLING FREQUENCY (1)
-// 146.610 - 147.390   REPEATER OUTPUTS (10)
-// 147.420 - 147.570   FM SIMPLEX (30 kHz raster)(7)
 // 147.435 - 147.585   DIGITAL (30 kHz raster)(8)
-// 147.600 - 147.990   REPEATER INPUTS (10)
 // 
 // Footnotes:
 // 

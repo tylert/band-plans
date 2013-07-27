@@ -1,4 +1,7 @@
-// 6 Meters (50-54 MHz): 
+// 6 Meters, 50 to 54 MHz
+
+import modes;
+
 // 50.0-50.1   CW, beacons
 // 50.060-50.080   beacon subband
 // 50.1-50.3   SSB, CW
@@ -33,9 +36,7 @@
 // 
 // 
 // 
-// 
 // This plan was approved October 1997
-// 50 - 54 MHz
 // 
 // Spectrum allocated 4 MHz
 // Amateur Exclusive Primary
