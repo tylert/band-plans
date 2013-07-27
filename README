@@ -1,6 +1,25 @@
+Tyler Tidman VA3DGN
+
+Software that was used to create and work with these files:
+  - GNU Make (3.81) [5]
+  - Asymptote () [x]
+  - Inkscape (0.46, 0.47, 0.48) [6]
+  - Imagemagick (6.3.7, 6.6.0-4) [7]
+  - Debian Linux (6.0, 7.0) [8]
+
+Type "make" to magically generate vector versions from the source .asy files.
+
 References:
-[1]http://rac.ca/en/rac/services/bandplans/hf/
-[2]https://www.rac.ca/downloads/hfbandplan.jpg
-[3]http://www.va3cco.com/rac_band_plan.htm
-[4]http://arrl.org/band-plan
-[5]http://asymptote.sourceforge.net
+[0]http://github.com/tylert/band_plans
+[1]http://rac.ca/downloads/hfbandplan.jpg
+[2]http://rac.ca/en/rac/services/bandplans/hf
+[3]http://rac.ca/en/rac/services/bandplans/allband.php
+[4]http://va3cco.com/rac_band_plan.htm
+[5]http://arrl.org/band-plan
+[6]http://iaru-r2.org/band-plan
+[7]http://asymptote.sourceforge.net
+[8]http://w3.org/Graphics/SVG
+[9]http://libpng.org/pub/png
+[a]http://gnu.org/software/make
+[b]http://inkscape.org
+[c]http://debian.org

@@ -1,29 +1,35 @@
+// 2m Band Plan
+// 144-148 MHz
+// Amateur Primary Exclusive
+// (Approved September 23rd 1995)
+
+import modes;
+
 unitsize(1cm);
 
 defaultpen(0.1);
 pen p=cmyk(1,1,1,1);
 
-pen cw=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
-pen cwam=cmyk(0.58,0.30,0.04,0.00)+opacity(0.5);
-pen am=cmyk(0.82,0.41,0.88,0.40)+opacity(0.5);
-pen digi=cmyk(0.01,0.56,0.84,0.00)+opacity(0.5);
-pen fm=cmyk(0.21,0.89,0.58,0.10)+opacity(0.5);
-
 label(scale(0.1)*rotate(-90)*"144.000",(0.000,0),S);
 
-filldraw(box((0.000,0),(0.050,1)),cw,p);
+// 144.000 - 144.100   MOONBOUNCE AND TERRESTRIAL CW
+// 144.00-144.05   EME (CW)
+filldraw(box((0.000,0),(0.050,1)),EME,p);
 label(scale(0.1)*rotate(-90)*"144.050",(0.050,0),S);
 
-filldraw(box((0.050,0),(0.100,1)),cw,p);
+// 144.05-144.10   General CW and weak signals
+filldraw(box((0.050,0),(0.100,1)),CW,p);
 label(scale(0.1)*rotate(-90)*"144.100",(0.100,0),S);
 
+// 144.100 - 144.200   CW/SSB WEAK SIGNAL
+// 144.10-144.20   EME and weak-signal SSB
 filldraw(box((0.100,0),(0.200,1)),cwam,p);
 label(scale(0.1)*rotate(-90)*"144.200",(0.200,0),S);
 
 filldraw(box((0.200,0),(0.275,1)),am,p);
 label(scale(0.1)*rotate(-90)*"144.275",(0.275,0),S);
 
-filldraw(box((0.275,0),(0.300,1)),cw,p);
+filldraw(box((0.275,0),(0.300,1)),CW,p);
 label(scale(0.1)*rotate(-90)*"144.300",(0.300,0),S);
 
 filldraw(box((0.300,0),(0.500,1)),digi,p);
@@ -68,10 +74,6 @@ label(scale(0.1)*rotate(-90)*"147.570",(3.570,0),S);
 filldraw(box((3.600,0),(3.990,1)),fm,p);
 label(scale(0.1)*rotate(-90)*"148.000",(4.000,0),S);
 
-// 2 Meters (144-148 MHz): 
-// 144.00-144.05   EME (CW)
-// 144.05-144.10   General CW and weak signals
-// 144.10-144.20   EME and weak-signal SSB
 // 144.200   National calling frequency
 // 144.200-144.275   General SSB operation
 // 144.275-144.300   Propagation beacons
@@ -96,14 +98,7 @@ label(scale(0.1)*rotate(-90)*"148.000",(4.000,0),S);
 // 
 // 
 // 
-// (Approved September 23rd 1995)
-// 
-// 144-148 MHz
-// Amateur Primary Exclusive
-// 
-// 144.000 - 144.100   MOONBOUNCE AND TERRESTRIAL CW
 // 144.100   CW CALLING FREQUENCY
-// 144.100 - 144.200   CW/SSB WEAK SIGNAL
 // 144.200 - 144.275    AM NARROW BAND MODES EXCLUSIVE SSB (ACSSB, SSB, CW, TY )
 // other modes with bandwidth less than 3 kHz -
 // FAX, SSTV, RTCALLING FREQUENCY (1)
