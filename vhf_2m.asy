@@ -5,13 +5,6 @@
 import band_plan;
 
 
-// 144.100  CW calling frequency
-// 144.200  SSB calling frequency
-// 144.340  ATV coordination frequency
-// 144.390  APRS frequency
-// 146.520  FM calling frequency
-
-
 stripe(0.000,0.050,"144.000","144.050",EMECW);
 stripe(0.050,0.100,"","144.100",CW);
 stripe(0.100,0.200,"","144.200",CWSSB);
@@ -25,7 +18,9 @@ stripe(1.100,1.200,"","145.200",REPOUTLIN);
 stripe(1.200,1.500,"","145.500",REPOUT);
 stripe(1.500,1.590,"","145.590",DIGITAL);
 stripe(1.590,1.790,"","145.790",DIGITAL);
+
 stripe(1.800,2.000,"145.800","146.000",SATELLITE);
+
 stripe(2.010,2.370,"146.010","146.370",REPIN);
 stripe(2.400,2.580,"146.400","146.580",FM);
 stripe(2.610,3.390,"146.610","147.390",REPOUT);
