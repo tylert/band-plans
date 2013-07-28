@@ -1,7 +1,17 @@
+// 1.25 metre Band, 222 to 225 MHz, amateur exclusive
+//                  220 to 222 MHz, amateur secondary (Canada-only)
+// maximum bandwidth 100 kHz
+// basic
+// October 1997
+
+
 import band_plan;
 
 
-// 1.25 Meters (222-225 MHz): 
+unitsize(1cm);
+defaultpen(0.1);
+
+
 // 222.0-222.150   Weak-signal modes
 // 222.0-222.025   EME
 // 222.05-222.06   Propagation beacons
@@ -15,16 +25,8 @@ import band_plan;
 // 223.71-223.85   Local coordinator's option; FM simplex, packet, repeater outputs
 // 223.85-224.98   Repeater outputs only
 // 
-// Note: The 222 MHz band plan was adopted by the ARRL Board of Directors in July 1991.
 // 
 // 
-// 
-// The present plan was approved October 1997
-// 
-// 220-225 MHz
-// Available Spectrum 5 MHz
-// Amateur Primary Exclusive 222-225 MHz (1)
-// Cross-border sharing with the US Land Mobile 220-222 MHz (2)
 // 220.00 - 221.00   HIGH DATA RATE DIGITAL (>=4800 B)**
 // MAX BW 100 kHz, raster starting at 220.15.
 // 220.55 - 220.95   DUPLEXED TO 430.05 430.45 MHz (4)

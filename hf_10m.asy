@@ -1,11 +1,14 @@
-// 10 metre Band, 28 to 29.7 MHz
-// amateur ???
+// 10 metre Band, 28 to 29.7 MHz, amateur exclusive
 // maximum bandwidth 1 kHz
 // basic +
 // July 2008
 
 
 import band_plan;
+
+
+unitsize(1cm);
+defaultpen(0.1);
 
 
 // 28.000-28.070   CW

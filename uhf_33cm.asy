@@ -1,11 +1,14 @@
-// 33 centimetre Band, 902 to 928 MHz
-// amateur and land mobile secondary, fixed and radio location primary
+// 33 centimetre Band, 902 to 928 MHz, amateur secondary
 // maximum bandwidth 12 MHz
 // basic
 // October 1997
 
 
 import band_plan;
+
+
+unitsize(1cm);
+defaultpen(0.1);
 
 
 // 902.000-902.075

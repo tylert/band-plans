@@ -1,14 +1,16 @@
+// 23 centimeter Band, 1.24 to 1.3 GHz, amateur secondary
+// maximum bandwidth N/A
+// basic
+// October 1997
+
+
 import band_plan;
 
 
-// This plan was approved October 1997
-// 1240 - 1300 MHz
-// Available spectrum 60 MHz
-// AERONAUTICAL NAVIGATION (GPS),
-// REMOTE SENSING SATELLITE RADARS,
-// RADIOLOCATION, and SPACE RESEARCH
-// PRIMARY
-// Amateur Secondary
+unitsize(1cm);
+defaultpen(0.1);
+
+
 // 1240 - 1246   ATV CHANNEL 1
 // 1246 - 1248   NB FM LINKS, DIGITAL, DUPLEXED TO 1258
 // 1248 - 1252   HIGH RATE DATA (>= 4800 B)

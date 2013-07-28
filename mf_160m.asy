@@ -1,11 +1,14 @@
-// 160 metre Band, 1.8 to 2 MHz
-// amateur ???
+// 160 metre Band, 1.8 to 2 MHz, amateur exclusive
 // maximum bandwidth 6 kHz
 // basic +
 // July 2008
 
 
 import band_plan;
+
+
+unitsize(1cm);
+defaultpen(0.1);
 
 
 // 1.800 - 2.000   CW

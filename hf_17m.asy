@@ -1,11 +1,14 @@
-// 17 metre Band, 18.068 to 18.168 MHz
-// amateur ???
+// 17 metre Band, 18.068 to 18.168 MHz, amateur exclusive
 // maximum bandwidth 6 kHz
 // basic +
 // July 2008
 
 
 import band_plan;
+
+
+unitsize(1cm);
+defaultpen(0.1);
 
 
 // 18.100-18.105   RTTY

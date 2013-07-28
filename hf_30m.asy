@@ -1,11 +1,14 @@
-// 30 metre Band, 10.1 to 10.15 MHz
-// amateur ???
+// 30 metre Band, 10.1 to 10.15 MHz, amateur exclusive
 // maximum bandwidth 6 kHz
 // basic +
 // July 2008
 
 
 import band_plan;
+
+
+unitsize(1cm);
+defaultpen(0.1);
 
 
 // 10.130-10.140   RTTY

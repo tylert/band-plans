@@ -1,3 +1,5 @@
+pen p=cmyk(1,1,1,1);
+
 pen EME=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
 pen CW=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
 pen cwam=cmyk(0.58,0.30,0.04,0.00)+opacity(0.5);

@@ -1,11 +1,17 @@
+// 13 centimeter Band, 2.3 to 2.45 GHz, amateur secondary
+// maximum bandwidth N/A
+// basic
+// October 1997
+
+
 import band_plan;
 
 
+unitsize(1cm);
+defaultpen(0.1);
+
+
 // This plan was approved October 1997. See also Draft 13 cM Bandplan
-// 2300-2450 MHz
-// Available Spectrum 150 MHz
-// FIXED, MOBILE, AND RADIOLOCATION PRIMARY
-// Amateur Secondary
 // 2300.00 - 2303.00   HIGH RATE DATA (OVER 4800 Baud)
 // 2303.00 - 2303.50   PACKET (UNDER 2400 B, 25 kHz CH)
 // 2303.50 - 2303.80   TTY; PACKET (UNDER 2400 B, )

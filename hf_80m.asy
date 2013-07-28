@@ -1,11 +1,14 @@
-// 80 metre Band, 3.5 to 4 MHz
-// amateur ???
+// 80 metre Band, 3.5 to 4 MHz, amateur exclusive
 // maximum bandwidth 6 kHz
 // basic +
 // July 2008
 
 
 import band_plan;
+
+
+unitsize(1cm);
+defaultpen(0.1);
 
 
 // 3.590   RTTY/Data DX

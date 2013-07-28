@@ -1,5 +1,4 @@
-// 2 metre Band, 144 to 148 MHz
-// amateur exclusive
+// 2 metre Band, 144 to 148 MHz, amateur exclusive
 // maximum bandwidth 30 kHz
 // basic
 // September 1995
@@ -9,9 +8,7 @@ import band_plan;
 
 
 unitsize(1cm);
-
 defaultpen(0.1);
-pen p=cmyk(1,1,1,1);
 
 
 label(scale(0.1)*rotate(-90)*"144.000",(0.000,0),S);

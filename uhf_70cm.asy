@@ -1,11 +1,14 @@
-// 70 centimetre Band, 430 to 450 MHz (US 420 to 450 MHz)
-// amateur secondary, radiolocation primary
+// 70 centimetre Band, 430 to 450 MHz (US 420 to 450 MHz), amateur secondary
 // maximum bandwitch 12 MHz
 // basic
 // September 1995
 
 
 import band_plan;
+
+
+unitsize(1cm);
+defaultpen(0.1);
 
 
 // 420.00-426.00   ATV repeater or simplex with 421.25 MHz video carrier control links and experimental

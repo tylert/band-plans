@@ -1,11 +1,14 @@
-// 20 metre Band, 14 to 14.35 MHz
-// amateur ???
+// 20 metre Band, 14 to 14.35 MHz, amateur exclusive
 // maximum bandwidth 6 kHz
 // basic +
 // July 2008
 
 
 import band_plan;
+
+
+unitsize(1cm);
+defaultpen(0.1);
 
 
 // 14.070-14.095   RTTY

@@ -1,11 +1,14 @@
-// 40 metre Band, 7 to 7.3 MHz
-// amateur ???
+// 40 metre Band, 7 to 7.3 MHz, amateur exclusive
 // maximum bandwidth 6 kHz
 // basic +
 // July 2008
 
 
 import band_plan;
+
+
+unitsize(1cm);
+defaultpen(0.1);
 
 
 // 7.040   RTTY/Data DX
