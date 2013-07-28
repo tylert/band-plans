@@ -1,3 +1,6 @@
+import band_plan;
+
+
 // This plan was approved October 1997. See also Draft 13 cM Bandplan
 // 2300-2450 MHz
 // Available Spectrum 150 MHz

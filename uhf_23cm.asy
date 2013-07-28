@@ -1,3 +1,6 @@
+import band_plan;
+
+
 // This plan was approved October 1997
 // 1240 - 1300 MHz
 // Available spectrum 60 MHz

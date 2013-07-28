@@ -5,6 +5,9 @@
 // October 1997
 
 
+import band_plan;
+
+
 // 902.000-902.075
 // FM / other including DV Or CW/SSB
 // Repeater inputs 25 MHz split paired with those in 927.000-927.075 or Weak signal

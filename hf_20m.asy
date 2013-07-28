@@ -1,4 +1,13 @@
-// 20 Meters (14.0-14.35 MHz): 
+// 20 metre Band, 14 to 14.35 MHz
+// amateur ???
+// maximum bandwidth 6 kHz
+// basic +
+// July 2008
+
+
+import band_plan;
+
+
 // 14.070-14.095   RTTY
 // 14.095-14.0995  Packet
 // 14.100  NCDXF Beacons
@@ -9,7 +18,6 @@
 // 
 // 
 // 
-// 20m BAND PLAN
 // 14000 - 14070
 // 14070 - 14095
 // 14095 - 14099.5
@@ -18,8 +26,6 @@
 // 14112 - 14350
 // NOTES:
 // 123456-
-// 
-// (July 8, 2008)
 // 
 // CW (Note 1)
 // CW, Narrow band digital (Note 2)

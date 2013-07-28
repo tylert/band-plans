@@ -1,4 +1,13 @@
-// 40 Meters (7.0-7.3 MHz): 
+// 40 metre Band, 7 to 7.3 MHz
+// amateur ???
+// maximum bandwidth 6 kHz
+// basic +
+// July 2008
+
+
+import band_plan;
+
+
 // 7.040   RTTY/Data DX
 // 7.080-7.125   RTTY/Data
 // 7.171   SSTV
@@ -6,7 +15,6 @@
 // 
 // 
 // 
-// 40m BAND PLAN
 // 7000 - 7035
 // 7035 - 7040
 // 7040 - 7050
@@ -15,8 +23,6 @@
 // 7125 - 7165
 // 7165 - 7175
 // 7175 - 7300
-// 
-// (July 8, 2008)
 // 
 // CW (Note 1)
 // CW, Narrow Band Digital with other Regions (Notes 2 & 3)

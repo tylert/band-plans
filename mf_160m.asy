@@ -1,4 +1,13 @@
-// 160 Meters (1.8-2.0 MHz):
+// 160 metre Band, 1.8 to 2 MHz
+// amateur ???
+// maximum bandwidth 6 kHz
+// basic +
+// July 2008
+
+
+import band_plan;
+
+
 // 1.800 - 2.000   CW
 // 1.800 - 1.810   Digital Modes
 // 1.810   CW QRP
@@ -8,13 +17,10 @@
 // 1.999 - 2.000   Beacons
 // 
 // 
-// 160m BAND PLAN
 // 1800 - 1810
 // 1810 - 1840
 // 1840 - 1999
 // 1999 - 2000
-// 
-// (July 8, 2008)
 // 
 // CW, Narrow band digital (Note 1)
 // CW (Notes 1 & 2)

@@ -1,3 +1,6 @@
+import band_plan;
+
+
 // 1.25 Meters (222-225 MHz): 
 // 222.0-222.150   Weak-signal modes
 // 222.0-222.025   EME

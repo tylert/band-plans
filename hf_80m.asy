@@ -1,4 +1,13 @@
-// 80 Meters (3.5-4.0 MHz):
+// 80 metre Band, 3.5 to 4 MHz
+// amateur ???
+// maximum bandwidth 6 kHz
+// basic +
+// July 2008
+
+
+import band_plan;
+
+
 // 3.590   RTTY/Data DX
 // 3.570-3.600   RTTY/Data
 // 3.790-3.800   DX window
@@ -7,12 +16,9 @@
 // 
 // 
 // 
-// 80m BAND PLAN
 // 3500 - 3580
 // 3580 - 3600
 // 3600 - 4000
-// 
-// (July 8, 2008)
 // 
 // CW (Note 1)
 // CW, Wide band , Narrow band digital (Notes 2, 3, 4 & 5)

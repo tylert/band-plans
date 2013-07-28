@@ -1,12 +1,17 @@
-// 15 Meters (21.0-21.45 MHz): 
+// 15 metre Band, 21 to 21.45 MHz
+// amateur ???
+// maximum bandwidth 6 kHz
+// basic +
+// July 2008
+
+
+import band_plan;
+
+
 // 21.070-21.110   RTTY/Data
 // 21.340  SSTV
 // 
 // 
-// 
-// 15m BAND PLAN
-// 
-// (July 8, 2008)
 // 
 // 21000-21070
 // 21070-21090

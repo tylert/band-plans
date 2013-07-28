@@ -1,12 +1,17 @@
-// 12 Meters (24.89-24.99 MHz): 
+// 12 metre Band, 24.89 to 24.99 MHz
+// amateur ???
+// maximum bandwidth 6 kHz
+// basic +
+// July 2008
+
+
+import band_plan;
+
+
 // 24.920-24.925   RTTY
 // 24.925-24.930   Packet
 // 
 // 
-// 
-// 12m BAND PLAN
-// 
-// (July 8, 2008)
 // 
 // 24890-24920
 // 24920-24925

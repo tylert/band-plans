@@ -2,7 +2,7 @@ Tyler Tidman VA3DGN
 
 Software that was used to create and work with these files:
   - GNU Make (3.81) [5]
-  - Asymptote () [x]
+  - Asymptote (2.15) [x]
   - Inkscape (0.46, 0.47, 0.48) [6]
   - Imagemagick (6.3.7, 6.6.0-4) [7]
   - Debian Linux (6.0, 7.0) [8]

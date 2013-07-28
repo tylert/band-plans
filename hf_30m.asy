@@ -1,15 +1,21 @@
-// 30 Meters (10.1-10.15 MHz): 
+// 30 metre Band, 10.1 to 10.15 MHz
+// amateur ???
+// maximum bandwidth 6 kHz
+// basic +
+// July 2008
+
+
+import band_plan;
+
+
 // 10.130-10.140   RTTY
 // 10.140-10.150   Packet
 // 
 // 
 // 
-// 30m BAND PLAN
 // 10100-10130
 // 10130-10140
 // 10140-10150
-// 
-// (July 6, 2008)
 // 
 // CW
 // CW, Narrow band digital

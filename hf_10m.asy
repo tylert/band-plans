@@ -1,4 +1,13 @@
-// 10 Meters (28-29.7 MHz): 
+// 10 metre Band, 28 to 29.7 MHz
+// amateur ???
+// maximum bandwidth 1 kHz
+// basic +
+// July 2008
+
+
+import band_plan;
+
+
 // 28.000-28.070   CW
 // 28.070-28.150   RTTY
 // 28.150-28.190   CW
@@ -12,11 +21,6 @@
 // 29.610-29.700   Repeater Outputs
 // 
 // 
-// 
-// 
-// 10m BAND PLAN
-// 
-// (July 8, 2008)
 // 
 // 28000-28070
 // 28070-28120
