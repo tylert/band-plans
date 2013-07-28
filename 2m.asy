@@ -1,127 +1,139 @@
-// 2m Band, 144 to 148 MHz
-// Amateur Primary Exclusive
-// (Approved September 23rd 1995)
+// 2m Band, 144 to 148 MHz, Amateur Exclusive
+// Approved September 1995
 
-import modes;
+import band_plan;
 
 unitsize(1cm);
 
 defaultpen(0.1);
 pen p=cmyk(1,1,1,1);
 
+
 label(scale(0.1)*rotate(-90)*"144.000",(0.000,0),S);
 
-// 144.000 - 144.100   MOONBOUNCE AND TERRESTRIAL CW
-// 144.00-144.05   EME (CW)
+// 144.000 - 144.100  EME and CW
 filldraw(box((0.000,0),(0.050,1)),EME,p);
 label(scale(0.1)*rotate(-90)*"144.050",(0.050,0),S);
 
-// 144.05-144.10   General CW and weak signals
+
+// 144.05 - 144.10  CW and weak signals
 filldraw(box((0.050,0),(0.100,1)),CW,p);
 label(scale(0.1)*rotate(-90)*"144.100",(0.100,0),S);
 
-// 144.100 - 144.200   CW/SSB WEAK SIGNAL
-// 144.10-144.20   EME and weak-signal SSB
+
+// 144.100 - 144.200  EME, CW, SSB weak signals
+// 144.100            CW calling frequencY
 filldraw(box((0.100,0),(0.200,1)),cwam,p);
 label(scale(0.1)*rotate(-90)*"144.200",(0.200,0),S);
 
-// 144.200-144.275   General SSB operation
-// 144.200 - 144.275    AM NARROW BAND MODES EXCLUSIVE SSB (ACSSB, SSB, CW, TY )
+
+// 144.200 - 144.275  general SSB operation
+// 144.200            SSB calling frequency
+// 144.200 - 144.275  AM narrow band modes exclusive SSB (ACSSB, SSB, CW, RTTY)
+//                    other modes with bandwidth less than 3 kHz -
+//                    FAX, SSTV, RTTY calling frequency (1)
 filldraw(box((0.200,0),(0.275,1)),am,p);
 label(scale(0.1)*rotate(-90)*"144.275",(0.275,0),S);
 
-// 144.275-144.300   Propagation beacons
-// 144.275 - 144.300   PROPAGATION BEACON NETWORK EXCLUSIVE
+
+// 144.275 - 144.300   propagation beacon network exclusive
 filldraw(box((0.275,0),(0.300,1)),CW,p);
 label(scale(0.1)*rotate(-90)*"144.300",(0.300,0),S);
 
+
+// 144.300 - 144.500  OSCAR, digital (2)
+// 144.340            ATV coordination frequency (1)
+// 144.390            APRS frequency (9)
 filldraw(box((0.300,0),(0.500,1)),digi,p);
 label(scale(0.1)*rotate(-90)*"144.500",(0.500,0),S);
 
-// 144.500 - 144.600   REPEATER INPUTS PRIMARY, LINEAR TRANSLATOR INPUTS SECONDARY(10)
-filldraw(box((0.500,0),(0.600,1)),fm,p);
+
+// 144.500 - 144.600  repeater inputs primary, linear translator inputs secondary (10)
+filldraw(box((0.500,0),(0.600,1)),REPINLIN,p);
 label(scale(0.1)*rotate(-90)*"144.600",(0.600,0),S);
 
-filldraw(box((0.600,0),(0.900,1)),fm,p);
+
+// 144.600 - 144.900  repeater inputs (10)
+filldraw(box((0.600,0),(0.900,1)),REPIN,p);
 label(scale(0.1)*rotate(-90)*"144.900",(0.900,0),S);
 
+
+// 144.90-145.10  weak signal and FM simplex (145.01,03,05,07,09 widely used for packet)
+// 144.900 - 145.100  digital (3)
 filldraw(box((0.900,0),(1.100,1)),digi,p);
 label(scale(0.1)*rotate(-90)*"145.100",(1.100,0),S);
 
-// 145.10-145.20   Linear translator outputs
-// 145.100 - 145.200   REPEATER OUTPUTS PRIMARY, LINEAR TRANSLATOR OUTPUTS SECONDARY (10)
-filldraw(box((1.100,0),(1.200,1)),fm,p);
+
+// 145.100 - 145.200  repeater outputs primary, linear translator outputs secondary (10)
+filldraw(box((1.100,0),(1.200,1)),REPOUTLIN,p);
 label(scale(0.1)*rotate(-90)*"145.200",(1.200,0),S);
 
-// 145.20-145.50   FM repeater outputs
-// 145.200 - 145.500   REPEATER OUTPUTS(10)
-filldraw(box((1.200,0),(1.500,1)),fm,p);
+
+// 145.200 - 145.500  repeater outputs (10)
+filldraw(box((1.200,0),(1.500,1)),REPOUT,p);
 label(scale(0.1)*rotate(-90)*"145.500",(1.500,0),S);
 
+
+// 145.50-145.80   miscellaneous and experimental modes
+// 145.500 - 145.590  SAREX/ARISS LINKS
 filldraw(box((1.500,0),(1.590,1)),digi,p);
 label(scale(0.1)*rotate(-90)*"145.590",(1.590,0),S);
 
+
+// 145.590 - 145.790  digital (4)
 filldraw(box((1.590,0),(1.790,1)),digi,p);
 label(scale(0.1)*rotate(-90)*"145.790",(1.790,0),S);
 
+
+//label(scale(0.1)*rotate(-90)*"145.800",(1.800,0),S);
+
+// 145.800 - 146.000  OSCAR, exclusive amateur satellite service, ARISS
 filldraw(box((1.800,0),(2.000,1)),digi,p);
 label(scale(0.1)*rotate(-90)*"146.000",(2.000,0),S);
 
-filldraw(box((2.010,0),(2.370,1)),fm,p);
+
+//label(scale(0.1)*rotate(-90)*"146.010",(2.010,0),S);
+
+// 146.010 - 146.370  repeater inputs (10)
+filldraw(box((2.010,0),(2.370,1)),REPIN,p);
 label(scale(0.1)*rotate(-90)*"146.370",(2.370,0),S);
 
-// 146.40-146.58   Simplex
-// 146.400 - 146.580   FM SIMPLEX (5)(6)
-filldraw(box((2.400,0),(2.580,1)),fm,p);
+
+label(scale(0.1)*rotate(-90)*"146.400",(2.400,0),S);
+
+// 146.400 - 146.580  FM simplex (5)(6)
+// 146.520            FM calling frequency (1)
+filldraw(box((2.400,0),(2.580,1)),FM,p);
 label(scale(0.1)*rotate(-90)*"146.580",(2.580,0),S);
 
-// 146.61-146.97   Repeater outputs
-// 147.00-147.39   Repeater outputs
-// 146.610 - 147.390   REPEATER OUTPUTS (10)
-filldraw(box((2.610,0),(3.390,1)),fm,p);
+
+label(scale(0.1)*rotate(-90)*"146.610",(2.610,0),S);
+
+// 146.61-146.97  repeater outputs
+// 147.00-147.39  repeater outputs
+// 146.610 - 147.390  repeater outputs (10)
+filldraw(box((2.610,0),(3.390,1)),REPOUT,p);
 label(scale(0.1)*rotate(-90)*"147.390",(3.390,0),S);
 
-// 147.42-147.57   Simplex
-// 147.420 - 147.570   FM SIMPLEX (30 kHz raster)(7)
-filldraw(box((3.420,0),(3.570,1)),fm,p);
+
+label(scale(0.1)*rotate(-90)*"147.420",(3.420,0),S);
+
+// 147.420 - 147.570   FM simplex (30 kHz raster)(7)
+filldraw(box((3.420,0),(3.570,1)),FM,p);
 label(scale(0.1)*rotate(-90)*"147.570",(3.570,0),S);
 
-// 147.60-147.99   Repeater inputs
-// 147.600 - 147.990   REPEATER INPUTS (10)
-filldraw(box((3.600,0),(3.990,1)),fm,p);
+
+label(scale(0.1)*rotate(-90)*"147.600",(3.600,0),S);
+
+// 147.600 - 147.990  repeater inputs (10)
+filldraw(box((3.600,0),(3.990,1)),REPIN,p);
 label(scale(0.1)*rotate(-90)*"147.990",(3.990,0),S);
 
-// 144.200   National calling frequency
-// 144.30-144.50   New OSCAR subband
-// 144.50-144.60   Linear translator inputs
-// 144.60-144.90   FM repeater inputs
-// 144.90-145.10   Weak signal and FM simplex (145.01,03,05,07,09 are widely used for packet)
-// 145.50-145.80   Miscellaneous and experimental modes
-// 145.80-146.00   OSCAR subband
-// 146.01-146.37   Repeater inputs
-// 146.52  National Simplex Calling Frequency
-// 
-// Notes: The frequency 146.40 MHz is used in some areas as a repeater input. This
-// band plan has been proposed by the ARRL VHF-UHF Advisory Committee.
-// 
-// 
-// 
-// 144.100   CW CALLING FREQUENCY
-// other modes with bandwidth less than 3 kHz -
-// FAX, SSTV, RTCALLING FREQUENCY (1)
-// 144.300 - 144.500   DIGITAL (2)
-// 144.340   NATIONAL ATV COORDINATION FREQUENCY (1)
-// 144.390   NATIONAL APRS FREQUENCY (9)
-// 144.600 - 144.900   REPEATER INPUTS(10)
-// 144.900 - 145.100   DIGITAL (3)
-// 145.500 - 145.590   SAREX/ARISS LINKS
-// 145.590 - 145.790   DIGITAL (4)
-// 145.800 - 146.000   EXCLUSIVE AMATEUR SATELLITE SERVICE, ARISS
-// 146.010 - 146.370   REPEATER INPUTS(10)
-// 146.520   NATIONAL FM CALLING FREQUENCY (1)
+
+//label(scale(0.1)*rotate(-90)*"148.000",(4.000,0),S);
+
+// ???
 // 147.435 - 147.585   DIGITAL (30 kHz raster)(8)
-// 
-// Footnotes:
 // 
 // (1) Once communications are established QSY off the frequency.
 // 
