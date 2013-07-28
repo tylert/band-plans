@@ -1,7 +1,7 @@
 unitsize(25cm);
 
 
-// fillpen definitions
+// mode colours
 pen BEACON=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
 pen EMECW=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
 pen CW=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
@@ -21,15 +21,17 @@ pen REPINLIN=cmyk(0.21,0.89,0.58,0.10)+opacity(0.5);
 pen REPOUTLIN=cmyk(0.21,0.89,0.58,0.10)+opacity(0.5);
 
 
-// drawpen definitions
-pen p=cmyk(1,1,1,1);
-
-
 void stripe(picture pic=currentpicture,
   real start_freq, real end_freq, string start_label, string end_label,
-  pen fillpen=currentpen, pen drawpen=currentpen)
+  pen fillpen=currentpen)
 {
-  label(start_label,(0.1,start_freq),E,fontsize(1pt));
-  filldraw(box((0.0,start_freq),(0.1,end_freq)),fillpen,drawpen);
-  label(end_label,(0.1,end_freq),E,fontsize(1pt));
+  real llx=0.0;
+  real lly=start_freq;
+  real urx=0.1;
+  real ury=end_freq;
+  pen drawpen=cmyk(1,1,1,1);
+
+  label(start_label,(urx,lly),E,fontsize(1pt));
+  filldraw(box((llx,lly),(urx,ury)),fillpen,drawpen);
+  label(end_label,(urx,ury),E,fontsize(1pt));
 }
