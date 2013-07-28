@@ -1,5 +1,9 @@
-// 6 Meters, 50 to 54 MHz, Amateur Exclusive
-// Approved October 1997
+// 6 metre Band, 50 to 54 MHz
+// amateur exclusive
+// maximum bandwidth 30 kHz
+// basic
+// October 1997
+
 
 import band_plan;
 

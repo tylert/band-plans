@@ -1,7 +1,12 @@
-// 2m Band, 144 to 148 MHz, Amateur Exclusive
-// Approved September 1995
+// 2 metre Band, 144 to 148 MHz
+// amateur exclusive
+// maximum bandwidth 30 kHz
+// basic
+// September 1995
+
 
 import band_plan;
+
 
 unitsize(1cm);
 
