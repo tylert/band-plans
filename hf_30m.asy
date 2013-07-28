@@ -1,41 +1,10 @@
 // 30 metre Band, 10.1 to 10.15 MHz, amateur exclusive
 // maximum bandwidth 6 kHz
-// basic +
-// July 2008
 
 
 import band_plan;
 
 
-unitsize(1cm);
-defaultpen(0.1);
-
-
-// 10.130-10.140   RTTY
-// 10.140-10.150   Packet
-// 
-// 
-// 
-// 10100-10130
-// 10130-10140
-// 10140-10150
-// 
-// CW
-// CW, Narrow band digital
-// CW, Narrow band and Wide band digital (Note 1)
-// 
-// Note:
-// 110142 - 10145
-// 
-// PSK-31 and other Very Narrow Band Digital
-// 
-// In addition, the following “Centres of Activity” are recognized:
-// 10115
-// IOTA CW Centre
-// 10116
-// CW QRP Centre
-// 
-// GENERAL NOTES:
-// - Where Notes are shown, these activities have priority over other activities.
-// - Wide band digital refers to any digital mode using more than 500Hz bandwidth.
-// - Narrow band digital modes: All modes using up to 500Hz bandwidth.
+stripe(0.100,0.130,"10.100","10.130",CW,p);
+stripe(0.130,0.140,"","10.140",DIGITAL,p);
+stripe(0.140,0.150,"","10.150",PACKET,p);
