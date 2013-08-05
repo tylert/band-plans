@@ -3,6 +3,7 @@
 
 
 import band_plan;
+import scale_vhf;
 
 
 stripe(0.0,0.1,0.000,0.050,"50.000","50.050",CW);

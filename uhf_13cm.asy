@@ -3,3 +3,4 @@
 
 
 import band_plan;
+import scale_uhf;

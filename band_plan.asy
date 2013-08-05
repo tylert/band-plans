@@ -1,9 +1,6 @@
 // Global Definitions
 
 
-unitsize(25cm);
-
-
 void stripe(picture pic=currentpicture,
   real start_height, real end_height,
   real start_freq, real end_freq,
@@ -23,7 +20,6 @@ void stripe(picture pic=currentpicture,
 
 
 // Modes
-pen UNKNOWN=cmyk(0.50,0.50,0.50,0.50)+opacity(0.5);
 pen BEACON=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
 pen EMECW=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
 pen CW=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
@@ -41,3 +37,4 @@ pen REPIN=cmyk(0.21,0.89,0.58,0.10)+opacity(0.5);
 pen REPOUT=cmyk(0.21,0.89,0.58,0.10)+opacity(0.5);
 pen REPINLIN=cmyk(0.21,0.89,0.58,0.10)+opacity(0.5);
 pen REPOUTLIN=cmyk(0.21,0.89,0.58,0.10)+opacity(0.5);
+pen UNKNOWN=cmyk(0.50,0.50,0.50,0.50)+opacity(0.5);

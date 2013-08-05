@@ -3,6 +3,7 @@
 
 
 import band_plan;
+import scale_hf;
 
 
 stripe(0.05,0.1,0.318,0.346,"5.318","5.346",SSB);

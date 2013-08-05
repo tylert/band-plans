@@ -4,6 +4,7 @@
 
 
 import band_plan;
+import scale_vhf;
 
 
 stripe(0.0,0.05,0.000,2.000,"220.000","",UNKNOWN);
