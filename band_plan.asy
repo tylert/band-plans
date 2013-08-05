@@ -5,22 +5,25 @@ unitsize(25cm);
 
 
 void stripe(picture pic=currentpicture,
-  real start_freq, real end_freq, string start_label, string end_label,
+  real start_height, real end_height,
+  real start_freq, real end_freq,
+  string start_label, string end_label,
   pen fillpen=currentpen)
 {
-  real llx=0.0;
+  real llx=start_height;
   real lly=start_freq;
-  real urx=0.1;
+  real urx=end_height;
   real ury=end_freq;
   pen drawpen=cmyk(1,1,1,1);
 
-  label(start_label,(urx,lly),E,fontsize(1pt));
+  label(start_label,(0.1,lly),E,fontsize(1pt));
   filldraw(box((llx,lly),(urx,ury)),fillpen,drawpen);
-  label(end_label,(urx,ury),E,fontsize(1pt));
+  label(end_label,(0.1,ury),E,fontsize(1pt));
 }
 
 
 // Modes
+pen UNKNOWN=cmyk(0.50,0.50,0.50,0.50)+opacity(0.5);
 pen BEACON=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
 pen EMECW=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
 pen CW=cmyk(0.79,0.79,0.00,0.00)+opacity(0.5);
