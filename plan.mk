@@ -4,7 +4,7 @@ ASY = $(wildcard *.asy)
 SVG = $(ASY:.asy=.svg)
 PNG = $(ASY:.asy=.png)
 
-GENERATED_FILES = $(SVG) $(PNG)
+GENERATED_FILES = $(SVG) #$(PNG)
 
 .PHONY : all
 all : $(GENERATED_FILES)

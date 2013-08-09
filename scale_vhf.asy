@@ -1,1 +1,2 @@
-unitsize(25cm,12cm);
+// 1 MHz : 5 cm
+unitsize(25cm,5cm);
