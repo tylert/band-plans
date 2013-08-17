@@ -1,5 +1,4 @@
-// 2 metre Band, 144 to 148 MHz, amateur exclusive
-// maximum bandwidth 30 kHz
+// Color chart legend
 
 
 import band_plan;
