@@ -8,30 +8,30 @@ void stripe(picture pic=currentpicture,
   real lly=start_freq;
   real urx=end_height;
   real ury=end_freq;
-  pen drawpen=cmyk(1.00,1.00,1.00,1.00);
+  pen drawpen=cmyk(1.00, 1.00, 1.00, 1.00);
 
-  label(start_label,(0.1,lly),E,fontsize(1pt));
-  filldraw(box((llx,lly),(urx,ury)),fillpen,drawpen);
-  label(end_label,(0.1,ury),E,fontsize(1pt));
+  label(start_label, (0.1,lly), E, fontsize(1pt));
+  filldraw(box((llx, lly), (urx, ury)), fillpen, drawpen);
+  label(end_label, (0.1, ury), E, fontsize(1pt));
 }
 
 
 // Modes
-pen BEACON=cmyk(0.79,0.79,0.00,0.00);
-pen EMECW=cmyk(0.79,0.79,0.00,0.00);
-pen CW=cmyk(0.79,0.79,0.00,0.00);
-pen CWSSB=cmyk(0.58,0.30,0.04,0.00);
-pen PACKETCWSSB=cmyk(0.58,0.30,0.04,0.00);
-pen AM=cmyk(0.82,0.41,0.88,0.40);
-pen SSB=cmyk(0.82,0.41,0.88,0.40);
-pen DX=cmyk(0.82,0.41,0.88,0.40);
-pen DIGITAL=cmyk(0.01,0.56,0.84,0.00);
-pen PACKET=cmyk(0.01,0.56,0.84,0.00);
-pen SATELLITE=cmyk(0.01,0.56,0.84,0.00);
-pen SSTV=cmyk(0.01,0.56,0.84,0.00);
-pen FM=cmyk(0.21,0.89,0.58,0.10);
-pen REPIN=cmyk(0.21,0.89,0.58,0.10);
-pen REPOUT=cmyk(0.21,0.89,0.58,0.10);
-pen REPINLIN=cmyk(0.21,0.89,0.58,0.10);
-pen REPOUTLIN=cmyk(0.21,0.89,0.58,0.10);
-pen UNKNOWN=cmyk(0.50,0.50,0.50,0.50);
+pen BEACON=cmyk(0.79, 0.79, 0.00, 0.00);
+pen EMECW=cmyk(0.79, 0.79, 0.00, 0.00);
+pen CW=cmyk(0.79, 0.79, 0.00, 0.00);
+pen CWSSB=cmyk(0.58, 0.30, 0.04, 0.00);
+pen PACKETCWSSB=cmyk(0.58, 0.30, 0.04, 0.00);
+pen AM=cmyk(0.82, 0.41, 0.88, 0.40);
+pen SSB=cmyk(0.82, 0.41, 0.88, 0.40);
+pen DX=cmyk(0.82, 0.41, 0.88, 0.40);
+pen DIGITAL=cmyk(0.01, 0.56, 0.84, 0.00);
+pen PACKET=cmyk(0.01, 0.56, 0.84, 0.00);
+pen SATELLITE=cmyk(0.01, 0.56, 0.84, 0.00);
+pen SSTV=cmyk(0.01, 0.56, 0.84, 0.00);
+pen FM=cmyk(0.21, 0.89, 0.58, 0.10);
+pen REPIN=cmyk(0.21, 0.89, 0.58, 0.10);
+pen REPOUT=cmyk(0.21, 0.89, 0.58, 0.10);
+pen REPINLIN=cmyk(0.21, 0.89, 0.58, 0.10);
+pen REPOUTLIN=cmyk(0.21, 0.89, 0.58, 0.10);
+pen UNKNOWN=cmyk(0.50, 0.50, 0.50, 0.50);
