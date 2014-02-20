@@ -2,5 +2,11 @@ Get all the band plan stuff done for Canada (yay, 60m band)
 Stitch multiple bands together to form a single picture
 Fix the colour scheme
 Try to show how things line up with other countries and regions
+
+---
+
 Figure out if it is possible to generate these .asy files from a python script
+
 Learn how to draw the same things in python-cairo (except with no CMYK yet)
+  http://cairographics.org/pycairo/tutorial/
+  http://lesica.com/python-cairo-tutorial.html
