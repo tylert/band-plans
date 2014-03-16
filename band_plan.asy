@@ -10,7 +10,7 @@ void stripe(picture pic=currentpicture,
   real ury=end_freq;
   pen drawpen=cmyk(1.00, 1.00, 1.00, 1.00);
 
-  label(start_label, (0.1,lly), E, fontsize(1pt));
+  label(start_label, (0.1, lly), E, fontsize(1pt));
   filldraw(box((llx, lly), (urx, ury)), fillpen, drawpen);
   label(end_label, (0.1, ury), E, fontsize(1pt));
 }
