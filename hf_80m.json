@@ -1,0 +1,56 @@
+{
+  "name_english": "80 metres, amateur exclusive, maximum bandwidth 6 kHz",
+  "name_french": "80 metres, amateur exclusif, bande passante maximale 6 kHz",
+
+  "blocks": [
+    {
+      "start_label": "3.500",
+      "end_label": "3.580",
+      "type": "CW",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.020, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "3.620",
+      "type": "DIGITAL",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.020, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "3.635",
+      "type": "PACKET",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.020, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "3.725",
+      "type": "CW",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.020, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "3.790",
+      "type": "LSB",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.020, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "3.800",
+      "type": "DX",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.020, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "4.000",
+      "type": "LSB",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.020, 0.010]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name_english": "160 metres, amateur exclusive, maximum bandwidth 6 kHz",
+  "name_french": "160 metres, amateur exclusif, bande passante maximale 6 kHz",
+
+  "blocks": [
+    {
+      "start_label": "1.800",
+      "end_label": "1.820",
+      "type": "CW",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.020, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "1.830",
+      "type": "DIGITAL",
+      "lower_left": [0.020, 0.000],
+      "upper_right": [0.010, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "1.840",
+      "type": "DX",
+      "lower_left": [0.030, 0.000],
+      "upper_right": [0.010, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "2.000",
+      "type": "LSB",
+      "lower_left": [0.040, 0.000],
+      "upper_right": [0.060, 0.010]
+    }
+  ]
+}
