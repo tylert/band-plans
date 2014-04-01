@@ -1,3 +1,5 @@
+// Helper Functions
+
 void stripe(picture pic=currentpicture,
   real start_height, real end_height,
   real start_freq, real end_freq,
@@ -10,13 +12,14 @@ void stripe(picture pic=currentpicture,
   real ury=end_freq;
   pen drawpen=cmyk(1.00, 1.00, 1.00, 1.00);
 
-  label(start_label, (0.1,lly), E, fontsize(1pt));
+  label(start_label, (0.1, lly), E, fontsize(1pt));
   filldraw(box((llx, lly), (urx, ury)), fillpen, drawpen);
   label(end_label, (0.1, ury), E, fontsize(1pt));
 }
 
 
-// Modes
+// Fill Colours
+
 pen BEACON=cmyk(0.79, 0.79, 0.00, 0.00);
 pen EMECW=cmyk(0.79, 0.79, 0.00, 0.00);
 pen CW=cmyk(0.79, 0.79, 0.00, 0.00);
