@@ -1,0 +1,15 @@
+{
+  "name_english": "30 metres, amateur exclusive, maximum bandwidth 6 kHz",
+  "name_french": "30 metres, amateur exclusif, bande passante maximale 6 kHz",
+
+  "blocks": [
+    {
+      "start_label": "10.100",
+      "end_label": ""
+    },
+    {
+      "start_label": "",
+      "end_label": "10.150"
+    }
+  ]
+}
