@@ -1,15 +1,66 @@
 {
-  "name_english": "10 metres, amateur exclusive, maximum bandwidth 1 kHz",
-  "name_french": "10 metres, amateur exclusif, bande passante maximale 1 kHz",
+  "name_english": "10 metres, amateur exclusive",
+  "name_french": "10 metres, amateur exclusif",
+
+  "maximum_bandwidth": "1 kHz",
+
+  "scale_factor": "25",
 
   "blocks": [
     {
-      "start_label": "28.000",
-      "end_label": ""
+      "type": "CW",
+      "start": "28.000",
+      "end": "28.070"
     },
     {
-      "start_label": "",
-      "end_label": "29.700"
+      "type": "DIGITAL",
+      "start": "28.070",
+      "end": "28.120"
+    },
+    {
+      "type": "PACKET",
+      "start": "28.120",
+      "end": "28.190"
+    },
+    {
+      "type": "BEACON",
+      "start": "28.190",
+      "end": "28.200"
+    },
+    {
+      "type": "SSB",
+      "start": "28.200",
+      "end": "29.300"
+    },
+    {
+      "type": "SATELLITE",
+      "start": "29.300",
+      "end": "29.510"
+    },
+    {
+      "type": "UNKNOWN",
+      "start": "29.510",
+      "end": "29.520"
+    },
+    {
+      "type": "REPIN",
+      "start": "29.520",
+      "end": "29.590"
+    },
+    {
+      "type": "UNKNOWN",
+      "start": "29.500",
+      "end": "29.620"
+    },
+    {
+      "type": "REPOUT",
+      "start": "29.620",
+      "end": "29.690"
+    },
+    {
+      "type": "UNKNOWN",
+      "start": "29.690",
+      "end": "29.700"
     }
   ]
 }

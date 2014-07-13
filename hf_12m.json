@@ -1,15 +1,31 @@
 {
-  "name_english": "12 metres, amateur exclusive, maximum bandwidth 6 kHz",
-  "name_french": "12 metres, amateur exclusif, bande passante maximale 6 kHz",
+  "name_english": "12 metres, amateur exclusive",
+  "name_french": "12 metres, amateur exclusif",
+
+  "maximum_bandwidth": "6 kHz",
+
+  "scale_factor": "25",
 
   "blocks": [
     {
-      "start_label": "24.890",
-      "end_label": ""
+      "type": "CW",
+      "start": "24.890",
+      "end": "24.920"
     },
     {
-      "start_label": "",
-      "end_label": "24.990"
+      "type": "DIGITAL",
+      "start": "24.920",
+      "end": "24.925"
+    },
+    {
+      "type": "PACKET",
+      "start": "24.925",
+      "end": "24.940"
+    },
+    {
+      "type": "SSB",
+      "start": "24.940",
+      "end": "24.990"
     }
   ]
 }
