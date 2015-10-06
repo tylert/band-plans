@@ -1,13 +1,19 @@
 Tyler Tidman VA3DGN
 
 Software that was used to create and work with these files:
-  - Asymptote (2.15) [x]
   - Inkscape (0.48, 0.47, 0.46) [6]
   - GNU Make (3.81) [5]
   - Imagemagick (6.6.0-4, 6.3.7) [7]
   - Debian Linux (7.1, 7.0, 6.0) [8]
 
 Type "make" to magically generate vector versions from the source .asy files.
+
+LF 30 kHz to 300 kHz
+MF 300 kHz to 3 MHz
+HF 3 MHz to 30 MHz
+VHF 30 MHz to 300 MHz
+UHF 300 MHz to 3 GHz
+SHF 3 GHz to 30 GHz
 
 References:
 * http://wp.rac.ca/rac-0-30-mhz-band-plan/
@@ -20,7 +26,7 @@ References:
 * http://ic.gc.ca/eic/site/smt-gst.nsf/eng/h_sf01678.html
 * http://ntia.doc.gov/page/2011/united-states-frequency-allocation-chart
 * http://iaru-r2.org/band-plan
-* http://asymptote.sourceforge.net
+
 * http://w3.org/Graphics/SVG
 * http://libpng.org/pub/png
 * http://gnu.org/software/make
