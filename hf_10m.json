@@ -3,59 +3,81 @@
   "name_french": "10 mètres, amateur exclusive, bande passante maximale 6 kHz",
   "blocks": [
     {
+      "start_label": "28.000",
+      "end_label": "28.070",
       "type": "CW",
-      "start": "28.000",
-      "end": "28.070"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "28.070",
+      "end_label": "28.120",
       "type": "DIGITAL",
-      "start": "28.070",
-      "end": "28.120"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "28.120",
+      "end_label": "28.190",
       "type": "PACKET",
-      "start": "28.120",
-      "end": "28.190"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "28.190",
+      "end_label": "28.200",
       "type": "BEACON",
-      "start": "28.190",
-      "end": "28.200"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "28.200",
+      "end_label": "29.300",
       "type": "SSB",
-      "start": "28.200",
-      "end": "29.300"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "29.300",
+      "end_label": "29.510",
       "type": "SATELLITE",
-      "start": "29.300",
-      "end": "29.510"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "29.510",
+      "end_label": "29.520",
       "type": "UNKNOWN",
-      "start": "29.510",
-      "end": "29.520"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "29.520",
+      "end_label": "29.590",
       "type": "REPIN",
-      "start": "29.520",
-      "end": "29.590"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "29.500",
+      "end_label": "29.620",
       "type": "UNKNOWN",
-      "start": "29.500",
-      "end": "29.620"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "",
+      "end_label": "29.690",
       "type": "REPOUT",
-      "start": "29.620",
-      "end": "29.690"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "",
+      "end_label": "29.700",
       "type": "UNKNOWN",
-      "start": "29.690",
-      "end": "29.700"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     }
   ]
 }

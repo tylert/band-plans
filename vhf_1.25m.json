@@ -2,5 +2,19 @@
   "name_english": "1.25 metres, amateur secondary, maximum bandwidth 6 kHz",
   "name_french": "1.25 mètres, amateur secondaire, bande passante maximale 6 kHz",
   "blocks": [
+    {
+      "start_label": "28.000",
+      "end_label": "28.070",
+      "type": "CW",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
+    },
+    {
+      "start_label": "28.000",
+      "end_label": "28.070",
+      "type": "CW",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
+    }
   ]
 }

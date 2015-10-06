@@ -2,5 +2,19 @@
   "name_english": "2 metres, amateur exclusive, maximum bandwidth 6 kHz",
   "name_french": "2 mètres, amateur exclusive, bande passante maximale 6 kHz",
   "blocks": [
+    {
+      "start_label": "",
+      "end_label": "29.690",
+      "type": "REPOUT",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
+    },
+    {
+      "start_label": "",
+      "end_label": "29.700",
+      "type": "UNKNOWN",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
+    }
   ]
 }

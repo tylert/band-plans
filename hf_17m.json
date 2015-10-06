@@ -4,11 +4,17 @@
   "blocks": [
     {
       "start_label": "18.068",
-      "end_label": ""
+      "end_label": "",
+      "type": "",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
       "start_label": "",
-      "end_label": "18.168"
+      "end_label": "18.168",
+      "type": "",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     }
   ]
 }

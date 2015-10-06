@@ -16,7 +16,7 @@ svg : $(SVG)
 png : $(PNG)
 
 %.svg : %.asy
-	@asy -f svg $<
+	@asy -outformat svg $<
 
 %.png : %.svg
 	@inkscape --export-png $@ $<

@@ -3,24 +3,32 @@
   "name_french": "12 mètres, amateur exclusive, bande passante maximale 6 kHz",
   "blocks": [
     {
+      "start_label": "24.890",
+      "end_label": "24.920",
       "type": "CW",
-      "start": "24.890",
-      "end": "24.920"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "24.920",
+      "end_label": "24.925",
       "type": "DIGITAL",
-      "start": "24.920",
-      "end": "24.925"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "24.925",
+      "end_label": "24.940",
       "type": "PACKET",
-      "start": "24.925",
-      "end": "24.940"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     },
     {
+      "start_label": "24.940",
+      "end_label": "24.990",
       "type": "SSB",
-      "start": "24.940",
-      "end": "24.990"
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.000, 0.000]
     }
   ]
 }
