@@ -1,4 +1,6 @@
 {
-  "name_english": "? metres, amateur exclusive, maximum bandwidth 6 kHz",
-  "name_french": "? mètres, amateur exclusive, bande passante maximale 6 kHz",
+  "name_english": "1.25 metres, amateur secondary, maximum bandwidth 6 kHz",
+  "name_french": "1.25 mètres, amateur secondaire, bande passante maximale 6 kHz",
+  "blocks": [
+  ]
 }

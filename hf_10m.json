@@ -1,8 +1,6 @@
 {
-  "name_english": "10 metres, amateur exclusive",
-  "name_french": "10 mètres, amateur exclusive",
-  "maximum_bandwidth": "1 kHz",
-  "scale_factor": "25",
+  "name_english": "10 metres, amateur exclusive, maximum bandwidth 6 kHz",
+  "name_french": "10 mètres, amateur exclusive, bande passante maximale 6 kHz",
   "blocks": [
     {
       "type": "CW",
