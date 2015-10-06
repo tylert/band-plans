@@ -10,18 +10,19 @@ Software that was used to create and work with these files:
 Type "make" to magically generate vector versions from the source .asy files.
 
 References:
-[1]http://rac.ca/downloads/hfbandplan.jpg
-[2]http://rac.ca/en/rac/services/bandplans/hf
-[3]http://rac.ca/en/rac/services/bandplans/allband.php
-[x]http://rac.ca/en/rac/services/bandplans/hf/cribsheet.php
-[4]http://va3cco.com/rac_band_plan.htm
-[5]http://arrl.org/band-plan
-[z]http://ic.gc.ca/eic/site/smt-gst.nsf/eng/h_sf01678.html
-[w]http://ntia.doc.gov/page/2011/united-states-frequency-allocation-chart
-[6]http://iaru-r2.org/band-plan
-[7]http://asymptote.sourceforge.net
-[8]http://w3.org/Graphics/SVG
-[9]http://libpng.org/pub/png
-[a]http://gnu.org/software/make
-[b]http://inkscape.org
-[c]http://debian.org
+* http://wp.rac.ca/rac-0-30-mhz-band-plan/
+* http://rac.ca/downloads/hfbandplan.jpg
+* http://rac.ca/en/rac/services/bandplans/hf
+* http://rac.ca/en/rac/services/bandplans/allband.php
+* http://rac.ca/en/rac/services/bandplans/hf/cribsheet.php
+* http://va3cco.com/rac_band_plan.htm
+* http://arrl.org/band-plan
+* http://ic.gc.ca/eic/site/smt-gst.nsf/eng/h_sf01678.html
+* http://ntia.doc.gov/page/2011/united-states-frequency-allocation-chart
+* http://iaru-r2.org/band-plan
+* http://asymptote.sourceforge.net
+* http://w3.org/Graphics/SVG
+* http://libpng.org/pub/png
+* http://gnu.org/software/make
+* http://inkscape.org
+* http://debian.org

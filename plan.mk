@@ -19,8 +19,8 @@ png : $(PNG)
 	@asy -f svg $<
 
 %.png : %.svg
-	@inkscape -e $@ $<
+	@inkscape --export-png $@ $<
 
 .PHONY : clean
 clean :
-	@rm -f $(GENERATED_FILES)
+	@rm --force $(GENERATED_FILES)
