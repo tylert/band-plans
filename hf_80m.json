@@ -1,7 +1,6 @@
 {
   "name_english": "80 metres, amateur exclusive, maximum bandwidth 6 kHz",
-  "name_french": "80 metres, amateur exclusif, bande passante maximale 6 kHz",
-
+  "name_french": "80 mètres, amateur exclusif, bande passante maximale 6 kHz",
   "blocks": [
     {
       "start_label": "3.500",

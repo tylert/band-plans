@@ -1,7 +1,6 @@
 {
   "name_english": "60 metres, amateur secondary, maximum bandwidth 6 kHz",
-  "name_french": "60 metres, amateur secondaire, bande passante maximale 6 kHz",
-
+  "name_french": "60 mètres, amateur secondaire, bande passante maximale 6 kHz",
   "blocks": [
     {
       "start_label": "5.318",

@@ -1,7 +1,6 @@
 {
   "name_english": "33 centimetres, amateur secondary, maximum bandwidth 12 MHz",
-  "name_french": "33 centimetres, amateur secondaire, bande passante maximale 12 MHz",
-
+  "name_french": "33 centimètres, amateur secondaire, bande passante maximale 12 MHz",
   "blocks": [
     {
       "start_label": "902.000",
