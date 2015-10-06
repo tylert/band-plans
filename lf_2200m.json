@@ -1,0 +1,28 @@
+{
+  "name_english": "2200 metres, amateur exclusive, maximum bandwidth 6 kHz",
+  "name_french": "2200 metres, amateur exclusif, bande passante maximale 6 kHz",
+
+  "blocks": [
+    {
+      "start_label": "0.1357",
+      "end_label": "0.1374",
+      "type": "CW",
+      "lower_left": [0.000, 0.000],
+      "upper_right": [0.020, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "0.1376",
+      "type": "NARROW DIGITAL",
+      "lower_left": [0.020, 0.000],
+      "upper_right": [0.010, 0.010]
+    },
+    {
+      "start_label": "",
+      "end_label": "0.1378",
+      "type": "CW QRSS",
+      "lower_left": [0.030, 0.000],
+      "upper_right": [0.010, 0.010]
+    }
+  ]
+}
