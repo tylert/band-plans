@@ -3,22 +3,22 @@
   "name_french": "33 centimètres, amateur secondaire, bande passante maximale 12 MHz",
   "blocks": [
     {
-      "start_label": "902.000",
+      "start_label": "902.0000",
       "end_label": "",
       "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.00000, 0.00000],
+      "upper_right": [0.00000, 0.00000]
     },
     {
       "start_label": "",
-      "end_label": "928.000",
+      "end_label": "928.0000",
       "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.00000, 0.00000],
+      "upper_right": [0.00000, 0.00000]
     }
   ]
 }

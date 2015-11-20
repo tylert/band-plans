@@ -4,12 +4,12 @@
   "blocks": [
     {
       "start_label": "28.0000",
-      "end_label": "28.0700",
+      "end_label": "",
       "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "28.0700",
@@ -17,8 +17,8 @@
       "type": "DIGITAL",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "28.1230",
@@ -26,8 +26,8 @@
       "type": "PACKET",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "28.1895",
@@ -35,8 +35,8 @@
       "type": "BEACON",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "28.2005",
@@ -44,8 +44,8 @@
       "type": "SSB",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "28.3000",
@@ -53,35 +53,35 @@
       "type": "SATELLITE",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "28.3200",
       "end_label": "",
-      "type": "UNKNOWN",
+      "type": "USB",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "28.6800",
       "end_label": "",
-      "type": "REPIN",
+      "type": "SSTV",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "28.6830",
       "end_label": "",
-      "type": "UNKNOWN",
+      "type": "USB",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "29.3000",
@@ -89,8 +89,8 @@
       "type": "Satellite",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "29.5200",
@@ -98,8 +98,8 @@
       "type": "FM",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     }
   ]
 }

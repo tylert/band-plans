@@ -3,67 +3,67 @@
   "name_french": "80 mètres, amateur exclusif, bande passante maximale 6 kHz",
   "blocks": [
     {
-      "start_label": "3.500",
-      "end_label": "3.580",
+      "start_label": "3.5000",
+      "end_label": "",
       "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.020, 0.010]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "",
-      "end_label": "3.620",
-      "type": "DIGITAL",
+      "start_label": "3.5800",
+      "end_label": "",
+      "type": "Narrow Digital",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.020, 0.010]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "",
-      "end_label": "3.635",
-      "type": "PACKET",
-      "colour": "#cccccc",
-      "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.020, 0.010]
-    },
-    {
-      "start_label": "",
-      "end_label": "3.725",
+      "start_label": "3.5830",
+      "end_label": "",
       "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.020, 0.010]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "",
-      "end_label": "3.790",
+      "start_label": "3.5890",
+      "end_label": "",
+      "type": "Digital",
+      "colour": "#cccccc",
+      "border": true,
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
+    },
+    {
+      "start_label": "3.6000",
+      "end_label": "",
       "type": "LSB",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.020, 0.010]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "",
-      "end_label": "3.800",
-      "type": "DX",
+      "start_label": "3.8420",
+      "end_label": "",
+      "type": "SSTV",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.020, 0.010]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "",
-      "end_label": "4.000",
+      "start_label": "3.8450",
+      "end_label": "4.0000",
       "type": "LSB",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.020, 0.010]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     }
   ]
 }

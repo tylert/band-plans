@@ -3,22 +3,22 @@
   "name_french": "6 mètres, amateur exclusive, bande passante maximale 6 kHz",
   "blocks": [
     {
-      "start_label": "",
-      "end_label": "29.690",
+      "start_label": "50.0000",
+      "end_label": "",
       "type": "REPOUT",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
       "start_label": "",
-      "end_label": "29.700",
+      "end_label": "54.0000",
       "type": "UNKNOWN",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     }
   ]
 }

@@ -3,22 +3,58 @@
   "name_french": "40 mètres, amateur exclusive, bande passante maximale 6 kHz",
   "blocks": [
     {
-      "start_label": "7.000",
+      "start_label": "7.0000",
       "end_label": "",
-      "type": "",
+      "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "",
-      "end_label": "7.300",
-      "type": "",
+      "start_label": "7.0350",
+      "end_label": "",
+      "type": "Digital",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
+    },
+    {
+      "start_label": "7.0400",
+      "end_label": "",
+      "type": "LSB",
+      "colour": "#cccccc",
+      "border": true,
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
+    },
+    {
+      "start_label": "7.0800",
+      "end_label": "7.125",
+      "type": "Digital",
+      "colour": "#cccccc",
+      "border": true,
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
+    },
+    {
+      "start_label": "7.1650",
+      "end_label": "",
+      "type": "SSTV",
+      "colour": "#cccccc",
+      "border": true,
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
+    },
+    {
+      "start_label": "7.1750",
+      "end_label": "7.3000",
+      "type": "LSB",
+      "colour": "#cccccc",
+      "border": true,
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     }
   ]
 }

@@ -3,67 +3,85 @@
   "name_french": "15 mètres, amateur exclusive, bande passante maximale 6 kHz",
   "blocks": [
     {
-      "start_label": "21.000",
-      "end_label": "21.070",
+      "start_label": "21.0000",
+      "end_label": "",
       "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "21.070",
-      "end_label": "21.090",
-      "type": "DIGITAL",
+      "start_label": "21.0700",
+      "end_label": "",
+      "type": "Narrow Digital",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "21.090",
-      "end_label": "21.125",
-      "type": "PACKET",
-      "colour": "#cccccc",
-      "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
-    },
-    {
-      "start_label": "21.125",
-      "end_label": "21.150",
+      "start_label": "",
+      "end_label": "21.0800",
       "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "21.150",
-      "end_label": "21.335",
-      "type": "SSB",
+      "start_label": "21.0830",
+      "end_label": "",
+      "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "21.335",
-      "end_label": "21.345",
+      "start_label": "21.0900",
+      "end_label": "",
+      "type": "Digital",
+      "colour": "#cccccc",
+      "border": true,
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
+    },
+    {
+      "start_label": "21.1250",
+      "end_label": "",
+      "type": "CW",
+      "colour": "#cccccc",
+      "border": true,
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
+    },
+    {
+      "start_label": "21.1500",
+      "end_label": "",
+      "type": "USB",
+      "colour": "#cccccc",
+      "border": true,
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
+    },
+    {
+      "start_label": "21.3400",
+      "end_label": "",
       "type": "SSTV",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "21.345",
-      "end_label": "21.450",
-      "type": "SSB",
+      "start_label": "21.3430",
+      "end_label": "21.4500",
+      "type": "USB",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     }
   ]
 }

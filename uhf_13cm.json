@@ -3,22 +3,22 @@
   "name_french": "13 centimètres, amateur secondaire, bande passante maximale ? kHz",
   "blocks": [
     {
-      "start_label": "2300.000",
+      "start_label": "2300.0000",
       "end_label": "",
       "type": "",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.00000, 0.00000],
+      "upper_right": [0.00000, 0.00000]
     },
     {
       "start_label": "",
-      "end_label": "2450.000",
+      "end_label": "2450.0000",
       "type": "",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.000, 0.000]
+      "lower_left": [0.00000, 0.00000],
+      "upper_right": [0.00000, 0.00000]
     }
   ]
 }

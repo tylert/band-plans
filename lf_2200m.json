@@ -4,30 +4,30 @@
   "blocks": [
     {
       "start_label": "0.1357",
-      "end_label": "0.1374",
+      "end_label": "",
       "type": "CW",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.000, 0.000],
-      "upper_right": [0.020, 0.010]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "",
-      "end_label": "0.1376",
-      "type": "NARROW DIGITAL",
+      "start_label": "0.1374",
+      "end_label": "",
+      "type": "Narrow Digital",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.020, 0.000],
-      "upper_right": [0.010, 0.010]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     },
     {
-      "start_label": "",
+      "start_label": "0.1376",
       "end_label": "0.1378",
       "type": "CW QRSS",
       "colour": "#cccccc",
       "border": true,
-      "lower_left": [0.030, 0.000],
-      "upper_right": [0.010, 0.010]
+      "lower_left": [0.0000, 0.0000],
+      "upper_right": [0.0000, 0.0000]
     }
   ]
 }
