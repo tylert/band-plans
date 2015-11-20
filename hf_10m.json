@@ -3,79 +3,101 @@
   "name_french": "10 mètres, amateur exclusive, bande passante maximale 6 kHz",
   "blocks": [
     {
-      "start_label": "28.000",
-      "end_label": "28.070",
+      "start_label": "28.0000",
+      "end_label": "28.0700",
       "type": "CW",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "28.070",
-      "end_label": "28.120",
+      "start_label": "28.0700",
+      "end_label": "",
       "type": "DIGITAL",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "28.120",
-      "end_label": "28.190",
+      "start_label": "28.1230",
+      "end_label": "",
       "type": "PACKET",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "28.190",
-      "end_label": "28.200",
+      "start_label": "28.1895",
+      "end_label": "",
       "type": "BEACON",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "28.200",
-      "end_label": "29.300",
+      "start_label": "28.2005",
+      "end_label": "",
       "type": "SSB",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "29.300",
-      "end_label": "29.510",
+      "start_label": "28.3000",
+      "end_label": "",
       "type": "SATELLITE",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "29.510",
-      "end_label": "29.520",
+      "start_label": "28.3200",
+      "end_label": "",
       "type": "UNKNOWN",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "29.520",
-      "end_label": "29.590",
+      "start_label": "28.6800",
+      "end_label": "",
       "type": "REPIN",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "29.500",
-      "end_label": "29.620",
+      "start_label": "28.6830",
+      "end_label": "",
       "type": "UNKNOWN",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "",
-      "end_label": "29.690",
-      "type": "REPOUT",
+      "start_label": "29.3000",
+      "end_label": "",
+      "type": "Satellite",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
     {
-      "start_label": "",
-      "end_label": "29.700",
-      "type": "UNKNOWN",
+      "start_label": "29.5200",
+      "end_label": "29.7000",
+      "type": "FM",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     }

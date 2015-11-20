@@ -6,6 +6,8 @@
       "start_label": "3.500",
       "end_label": "3.580",
       "type": "CW",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.020, 0.010]
     },
@@ -13,6 +15,8 @@
       "start_label": "",
       "end_label": "3.620",
       "type": "DIGITAL",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.020, 0.010]
     },
@@ -20,6 +24,8 @@
       "start_label": "",
       "end_label": "3.635",
       "type": "PACKET",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.020, 0.010]
     },
@@ -27,6 +33,8 @@
       "start_label": "",
       "end_label": "3.725",
       "type": "CW",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.020, 0.010]
     },
@@ -34,6 +42,8 @@
       "start_label": "",
       "end_label": "3.790",
       "type": "LSB",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.020, 0.010]
     },
@@ -41,6 +51,8 @@
       "start_label": "",
       "end_label": "3.800",
       "type": "DX",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.020, 0.010]
     },
@@ -48,6 +60,8 @@
       "start_label": "",
       "end_label": "4.000",
       "type": "LSB",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.020, 0.010]
     }

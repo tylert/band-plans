@@ -6,6 +6,8 @@
       "start_label": "0.472",
       "end_label": "0.479",
       "type": "CW",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.020, 0.010]
     },
@@ -13,6 +15,8 @@
       "start_label": "",
       "end_label": "",
       "type": "DIGITAL",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.020, 0.000],
       "upper_right": [0.010, 0.010]
     }

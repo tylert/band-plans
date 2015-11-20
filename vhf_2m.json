@@ -6,6 +6,8 @@
       "start_label": "",
       "end_label": "29.690",
       "type": "REPOUT",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
@@ -13,6 +15,8 @@
       "start_label": "",
       "end_label": "29.700",
       "type": "UNKNOWN",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     }

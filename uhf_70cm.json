@@ -6,6 +6,8 @@
       "start_label": "430.000",
       "end_label": "",
       "type": "CW",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     },
@@ -13,6 +15,8 @@
       "start_label": "",
       "end_label": "450.000",
       "type": "CW",
+      "colour": "#cccccc",
+      "border": true,
       "lower_left": [0.000, 0.000],
       "upper_right": [0.000, 0.000]
     }
