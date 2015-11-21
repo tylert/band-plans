@@ -14,7 +14,7 @@
     {
       "start_label": "28.0700",
       "end_label": "",
-      "type": "DIGITAL",
+      "type": "Narrow Digital",
       "colour": "#cccccc",
       "border": true,
       "lower_left": [0.0000, 0.0000],
@@ -23,7 +23,7 @@
     {
       "start_label": "28.1230",
       "end_label": "",
-      "type": "PACKET",
+      "type": "Digital",
       "colour": "#cccccc",
       "border": true,
       "lower_left": [0.0000, 0.0000],
@@ -32,7 +32,7 @@
     {
       "start_label": "28.1895",
       "end_label": "",
-      "type": "BEACON",
+      "type": "Beacon",
       "colour": "#cccccc",
       "border": true,
       "lower_left": [0.0000, 0.0000],
@@ -41,7 +41,7 @@
     {
       "start_label": "28.2005",
       "end_label": "",
-      "type": "SSB",
+      "type": "CW",
       "colour": "#cccccc",
       "border": true,
       "lower_left": [0.0000, 0.0000],
@@ -50,7 +50,7 @@
     {
       "start_label": "28.3000",
       "end_label": "",
-      "type": "SATELLITE",
+      "type": "Digital",
       "colour": "#cccccc",
       "border": true,
       "lower_left": [0.0000, 0.0000],

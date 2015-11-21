@@ -1,8 +1,7 @@
 SHELL = /bin/bash
 
-ASY = $(wildcard *.asy)
-SVG = $(ASY:.asy=.svg)
-PNG = $(ASY:.asy=.png)
+SVG = $(wildcard *.svg)
+PNG = $(SVG:.svg=.png)
 
 GENERATED_FILES = $(SVG) #$(PNG)
 
@@ -14,9 +13,6 @@ svg : $(SVG)
 
 .PHONY : png
 png : $(PNG)
-
-%.svg : %.asy
-	@asy -outformat svg $<
 
 %.png : %.svg
 	@inkscape --export-png $@ $<
