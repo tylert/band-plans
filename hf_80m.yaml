@@ -1,0 +1,81 @@
+---
+name_english: 80 metres, amateur exclusive, maximum bandwidth 6 kHz
+name_french: 80 mètres, amateur exclusif, bande passante maximale 6 kHz
+blocks:
+- start_label: '3.5000'
+  end_label: ''
+  type: CW
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '3.5800'
+  end_label: ''
+  type: Narrow Digital
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '3.5830'
+  end_label: ''
+  type: CW
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '3.5890'
+  end_label: ''
+  type: Digital
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '3.6000'
+  end_label: ''
+  type: LSB
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '3.8420'
+  end_label: ''
+  type: SSTV
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '3.8450'
+  end_label: '4.0000'
+  type: LSB
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0

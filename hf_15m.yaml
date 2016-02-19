@@ -1,0 +1,103 @@
+---
+name_english: 15 metres, amateur exclusive, maximum bandwidth 6 kHz
+name_french: 15 mètres, amateur exclusive, bande passante maximale 6 kHz
+blocks:
+- start_label: '21.0000'
+  end_label: ''
+  type: CW
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '21.0700'
+  end_label: ''
+  type: Narrow Digital
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: ''
+  end_label: '21.0800'
+  type: CW
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '21.0830'
+  end_label: ''
+  type: CW
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '21.0900'
+  end_label: ''
+  type: Digital
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '21.1250'
+  end_label: ''
+  type: CW
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '21.1500'
+  end_label: ''
+  type: USB
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '21.3400'
+  end_label: ''
+  type: SSTV
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '21.3430'
+  end_label: '21.4500'
+  type: USB
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0

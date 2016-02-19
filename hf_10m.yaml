@@ -1,0 +1,125 @@
+---
+name_english: 10 metres, amateur exclusive, maximum bandwidth 6 kHz
+name_french: 10 mètres, amateur exclusive, bande passante maximale 6 kHz
+blocks:
+- start_label: '28.0000'
+  end_label: ''
+  type: CW
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '28.0700'
+  end_label: ''
+  type: Narrow Digital
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '28.1230'
+  end_label: ''
+  type: Digital
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '28.1895'
+  end_label: ''
+  type: Beacon
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '28.2005'
+  end_label: ''
+  type: CW
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '28.3000'
+  end_label: ''
+  type: Digital
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '28.3200'
+  end_label: ''
+  type: USB
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '28.6800'
+  end_label: ''
+  type: SSTV
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '28.6830'
+  end_label: ''
+  type: USB
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '29.3000'
+  end_label: ''
+  type: Satellite
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
+- start_label: '29.5200'
+  end_label: '29.7000'
+  type: FM
+  colour: "#cccccc"
+  border: true
+  lower_left:
+  - 0.0
+  - 0.0
+  upper_right:
+  - 0.0
+  - 0.0
