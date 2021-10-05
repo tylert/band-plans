@@ -4,9 +4,7 @@ name_french: 60 mètres, amateur secondaire, bande passante maximale 6 kHz
 blocks:
 - start_label: '5.3305'
   end_label: ''
-  type: LSB
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -15,9 +13,7 @@ blocks:
   - 0.0
 - start_label: ''
   end_label: ''
-  type: Digital
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -26,9 +22,7 @@ blocks:
   - 0.0
 - start_label: '5.3465'
   end_label: ''
-  type: LSB
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -37,9 +31,7 @@ blocks:
   - 0.0
 - start_label: ''
   end_label: ''
-  type: Digital
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -48,9 +40,7 @@ blocks:
   - 0.0
 - start_label: '5.3570'
   end_label: ''
-  type: LSB
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -59,9 +49,7 @@ blocks:
   - 0.0
 - start_label: ''
   end_label: ''
-  type: Digital
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -70,9 +58,7 @@ blocks:
   - 0.0
 - start_label: '5.3715'
   end_label: ''
-  type: LSB
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -81,9 +67,7 @@ blocks:
   - 0.0
 - start_label: ''
   end_label: ''
-  type: Digital
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -92,9 +76,7 @@ blocks:
   - 0.0
 - start_label: '5.4035'
   end_label: ''
-  type: LSB
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -103,9 +85,7 @@ blocks:
   - 0.0
 - start_label: ''
   end_label: ''
-  type: Digital
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0

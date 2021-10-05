@@ -4,9 +4,7 @@ name_french: 2200 mètres, amateur ?, bande passante maximale ? kHz
 blocks:
 - start_label: '0.1357'
   end_label: ''
-  type: CW
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -15,9 +13,7 @@ blocks:
   - 0.0
 - start_label: '0.1374'
   end_label: ''
-  type: Narrow Digital
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -26,9 +22,7 @@ blocks:
   - 0.0
 - start_label: '0.1376'
   end_label: '0.1378'
-  type: CW QRSS
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0

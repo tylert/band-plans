@@ -4,9 +4,7 @@ name_french: 2 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
 - start_label: '146.0000'
   end_label: ''
-  type: REPOUT
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
@@ -15,9 +13,7 @@ blocks:
   - 0.0
 - start_label: ''
   end_label: '148.0000'
-  type: FM
-  colour: "#cccccc"
-  border: true
+  colour: '#cccccc'
   lower_left:
   - 0.0
   - 0.0
