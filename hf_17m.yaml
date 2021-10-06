@@ -2,48 +2,19 @@
 name_english: 17 metres, amateur exclusive, maximum bandwidth 6 kHz
 name_french: 17 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
+
 - start_label: '18.0680'
   end_label: ''
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#ff0000'  # red / CW
+
 - start_label: '18.0950'
   end_label: ''
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#b0e0e6'  # powderblue / Digital
+
 - start_label: '18.1000'
   end_label: ''
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
-- start_label: '18.1030'
-  end_label: ''
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#b0e0e6'  # powderblue / Digital
+
 - start_label: '18.1100'
   end_label: '18.1680'
   colour: '#adff2f'  # greenyellow / Phone
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0

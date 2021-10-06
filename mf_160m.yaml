@@ -2,30 +2,15 @@
 name_english: 160 metres, amateur exclusive, maximum bandwidth 6 kHz
 name_french: 160 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
+
 - start_label: '1.8000'
   end_label: ''
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#ff0000'  # red / CW
+
 - start_label: ''
   end_label: '1.8100'
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#b0e0e6'  # powderblue / Digital
+
 - start_label: '1.8400'
   end_label: '2.0000'
   colour: '#adff2f'  # greenyellow / Phone
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0

@@ -2,21 +2,11 @@
 name_english: 6 metres, amateur exclusive, maximum bandwidth 6 kHz
 name_french: 6 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
+
 - start_label: '50.0000'
   end_label: ''
   colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+
 - start_label: ''
   end_label: '54.0000'
   colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0

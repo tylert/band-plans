@@ -2,30 +2,15 @@
 name_english: 2200 metres, amateur ?, maximum bandwidth ? kHz
 name_french: 2200 mètres, amateur ?, bande passante maximale ? kHz
 blocks:
+
 - start_label: '0.1357'
   end_label: ''
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#ff0000'  # red / CW
+
 - start_label: '0.1374'
   end_label: ''
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#b0e0e6'  # powderblue / Digital
+
 - start_label: '0.1376'
   end_label: '0.1378'
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#ffa500'  # orange / QRSS

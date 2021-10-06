@@ -2,21 +2,15 @@
 name_english: 30 metres, amateur exclusive, maximum bandwidth 6 kHz
 name_french: 30 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
+
 - start_label: '10.1000'
   end_label: ''
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#ff0000'  # red / CW
+
+- start_label: '10.1300'
+  end_label: ''
+  colour: '#b0e0e6'  # powderblue / Digital
+
 - start_label: '10.1400'
   end_label: '10.1500'
-  colour: '#cccccc'
-  lower_left:
-  - 0.0
-  - 0.0
-  upper_right:
-  - 0.0
-  - 0.0
+  colour: '#ff0000'  # red / CW
