@@ -1,19 +1,15 @@
-Tyler Tidman VA3DGN
-
-Software that was used to create and work with these files:
-  - Inkscape (0.48, 0.47, 0.46) [6]
-  - GNU Make (3.81) [5]
-  - Imagemagick (6.6.0-4, 6.3.7) [7]
-  - Debian Linux (7.1, 7.0, 6.0) [8]
-
-Type "make" to magically generate vector versions from the source .asy files.
-
-LF 30 kHz to 300 kHz
-MF 300 kHz to 3 MHz
+ELF 3 Hz to 30 Hz
+SLF 30 Hz to 300 Hz (0.3 kHz)
+ULF 0.3 kHz to 3 kHz
+VLF 3 kHz to 30 kHz
+LF 30 kHz to 300 kHz (0.3 MHz)
+MF 0.3 MHz to 3 MHz
 HF 3 MHz to 30 MHz
-VHF 30 MHz to 300 MHz
-UHF 300 MHz to 3 GHz
+VHF 30 MHz to 300 MHz (0.3 GHz)
+UHF 0.3 GHz to 3 GHz
 SHF 3 GHz to 30 GHz
+EHF 30 GHz to 300 GHz (0.3 THz)
+THF 0.3 THz to 3 THz
 
 References:
 * http://wp.rac.ca/rac-0-30-mhz-band-plan/
@@ -26,9 +22,3 @@ References:
 * http://ic.gc.ca/eic/site/smt-gst.nsf/eng/h_sf01678.html
 * http://ntia.doc.gov/page/2011/united-states-frequency-allocation-chart
 * http://iaru-r2.org/band-plan
-
-* http://w3.org/Graphics/SVG
-* http://libpng.org/pub/png
-* http://gnu.org/software/make
-* http://inkscape.org
-* http://debian.org
