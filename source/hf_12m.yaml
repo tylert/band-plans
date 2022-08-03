@@ -1,0 +1,35 @@
+---
+#   https://en.wikipedia.org/wiki/WARC_bands
+name_english: 12 metres, amateur exclusive, maximum bandwidth 6 kHz
+name_french: 12 mètres, amateur exclusive, bande passante maximale 6 kHz
+blocks:
+
+- start: '24.8900'
+  end: '24.9200'
+  height: '1.0'
+  colour: '#ff0000'  # CW
+
+- start: '24.9200'
+  end: '24.9250'
+  height: '1.0'
+  colour: '#ffcc00'  # digital
+
+- start: '24.9250'
+  end: '24.9400'
+  height: '1.0'
+  colour: '#ff00cc'  # CW, narrowband digital, wideband digital
+
+- start: '24.9400'
+  end: '24.9750'
+  height: '1.0'
+  colour: '#0000ff'  # SSB
+
+- start: '24.9750'
+  end: '24.9780'
+  height: '1.0'
+  colour: '#00ccff'  # SSTV
+
+- start: '24.9780'
+  end: '24.9900'
+  height: '1.0'
+  colour: '#0000ff'  # SSB

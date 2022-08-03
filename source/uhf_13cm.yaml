@@ -1,12 +1,11 @@
 ---
+#   https://en.wikipedia.org/wiki/13-centimeter_band
+#   https://fr.wikipedia.org/wiki/Bande_des_13_cm
 name_english: 13 centimetres, amateur secondary, maximum bandwidth ? kHz
 name_french: 13 centimètres, amateur secondaire, bande passante maximale ? kHz
 blocks:
 
-- start_label: '2300.0000'
-  end_label: ''
-  colour: '#cccccc'
-
-- start_label: ''
-  end_label: '2450.0000'
+- start: '2300.0000'
+  end: '2450.0000'
+  height: '1.0'
   colour: '#cccccc'

@@ -1,0 +1,21 @@
+---
+#   https://en.wikipedia.org/wiki/160-meter_band
+#   https://fr.wikipedia.org/wiki/Bande_des_160_m%C3%A8tres
+name_english: 160 metres, amateur exclusive, maximum bandwidth 6 kHz
+name_french: 160 mètres, amateur exclusive, bande passante maximale 6 kHz
+blocks:
+
+- start: '1.8000'
+  end: '1.8100'
+  height: '1.0'
+  colour: '#ffcc00'  # CW, digital
+
+- start: '1.8100'
+  end: '1.8400'
+  height: '1.0'
+  colour: '#ff0000'  # CW
+
+- start: '1.8400'
+  end: '2.0000'
+  height: '1.0'
+  colour: '#0000ff'  # SSB

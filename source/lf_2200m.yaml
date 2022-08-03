@@ -1,0 +1,21 @@
+---
+#   https://en.wikipedia.org/wiki/2200-meter_band
+#   https://fr.wikipedia.org/wiki/Bande_des_2_kilom%C3%A8tres
+name_english: 2200 metres, amateur secondary, maximum bandwidth ? kHz
+name_french: 2200 mètres, amateur secondaire, bande passante maximale ? kHz
+blocks:
+
+- start: '0.1357'
+  end: '0.1374'
+  height: '1.0'
+  colour: '#ff0000'  # CW
+
+- start: '0.1374'
+  end: '0.1376'
+  height: '1.0'
+  colour: '#ffcc00'  # digital
+
+- start: '0.1376'
+  end: '0.1378'
+  height: '1.0'
+  colour: '#ffff00'  # QRSS

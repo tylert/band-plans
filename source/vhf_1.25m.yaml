@@ -1,0 +1,76 @@
+---
+#   https://en.wikipedia.org/wiki/1.25-meter_band
+#   https://fr.wikipedia.org/wiki/Bande_des_1,25_m%C3%A8tre
+name_english: 1.25 metres, amateur secondary, maximum bandwidth 6 kHz
+name_french: 1.25 mètres, amateur secondaire, bande passante maximale 6 kHz
+blocks:
+
+- start: '219.0000'
+  end: '220.0000'
+  height: '1.0'
+  colour: '#cccccc'  # available to "other" users
+
+- start: '220.0000'
+  end: '222.0000'
+  height: '1.0'
+  colour: '#cccccc'  # available for disaster relief
+
+- start: '222.0000'
+  end: '220.0500'
+  height: '1.0'
+  colour: '#cccccc'  # EME
+
+- start: '222.0500'
+  end: '222.1000'
+  height: '1.0'
+  colour: '#ff0000'  # CW
+
+- start: '222.1000'
+  end: '222.2750'
+  height: '1.0'
+  colour: '#0000ff'  # SSB
+
+- start: '222.2750'
+  end: '222.3000'
+  height: '1.0'
+  colour: '#ffcc00'  # beacons
+
+- start: '222.3000'
+  end: '222.3100'
+  height: '1.0'
+  colour: '#000000'  # guard
+
+- start: '222.3100'
+  end: '223.3700'
+  height: '1.0'
+  colour: '#00ccff'  # FM repeaters
+
+- start: '222.3700'
+  end: '223.3900'
+  height: '1.0'
+  colour: '#000000'  # guard???
+
+- start: '223.3900'
+  end: '223.4900'
+  height: '1.0'
+  colour: '#ccff00'  # high-speed data
+
+- start: '223.4900'
+  end: '223.5900'
+  height: '1.0'
+  colour: '#00ffcc'  # FM simplex
+
+- start: '223.5900'
+  end: '223.8900'
+  height: '1.0'
+  colour: '#ccff00'  # high-speed data
+
+- start: '223.8900'
+  end: '223.9100'
+  height: '1.0'
+  colour: '#000000'  # guard???
+
+- start: '223.9100'
+  end: '225.0000'
+  height: '1.0'
+  colour: '#00ccff'  # FM repeaters

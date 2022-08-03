@@ -1,12 +1,11 @@
 ---
+#   https://en.wikipedia.org/wiki/2-meter_band
+#   https://fr.wikipedia.org/wiki/Bande_des_2_m%C3%A8tres
 name_english: 2 metres, amateur exclusive, maximum bandwidth 6 kHz
 name_french: 2 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
 
-- start_label: '144.0000'
-  end_label: ''
-  colour: '#cccccc'
-
-- start_label: ''
-  end_label: '148.0000'
+- start: '144.0000'
+  end: '148.0000'
+  height: '1.0'
   colour: '#cccccc'

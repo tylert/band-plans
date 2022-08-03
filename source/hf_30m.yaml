@@ -1,0 +1,20 @@
+---
+#   https://en.wikipedia.org/wiki/WARC_bands
+name_english: 30 metres, amateur exclusive, maximum bandwidth 6 kHz
+name_french: 30 mètres, amateur exclusive, bande passante maximale 6 kHz
+blocks:
+
+- start: '10.1000'
+  end: '10.1300'
+  height: '1.0'
+  colour: '#ff0000'  # CW
+
+- start: '10.1300'
+  end: '10.1400'
+  height: '1.0'
+  colour: '#ffcc00'  # digital
+
+- start: '10.1400'
+  end: '10.1500'
+  height: '1.0'
+  colour: '#ff00cc'  # CW, narrowband digital, wideband digital

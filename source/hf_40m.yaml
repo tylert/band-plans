@@ -1,0 +1,36 @@
+---
+#   https://en.wikipedia.org/wiki/40-meter_band
+#   https://fr.wikipedia.org/wiki/Bande_des_40_m%C3%A8tres
+name_english: 40 metres, amateur exclusive, maximum bandwidth 6 kHz
+name_french: 40 mètres, amateur exclusive, bande passante maximale 6 kHz
+blocks:
+
+- start: '7.0000'
+  end: '7.0350'
+  height: '1.0'
+  colour: '#ff0000'  # CW
+
+- start: '7.0350'
+  end: '7.0400'
+  height: '1.0'
+  colour: '#ff00cc'  # CW, RTTY
+
+- start: '7.0400'
+  end: '7.0500'
+  height: '1.0'
+  colour: '#ffcc00'  # CW, RTTY, data, phone, image
+
+- start: '7.0500'
+  end: '7.1650'
+  height: '1.0'
+  colour: '#cc00ff'  # CW, SSB
+
+- start: '7.1650'
+  end: '7.1750'
+  height: '1.0'
+  colour: '#ffccff'  # CW, SSB, image
+
+- start: '7.1750'
+  end: '7.3000'
+  height: '1.0'
+  colour: '#ffffcc'  # CW, SSB

@@ -1,12 +1,11 @@
 ---
+#   https://en.wikipedia.org/wiki/23-centimeter_band
+#   https://fr.wikipedia.org/wiki/Bande_des_23_cm
 name_english: 23 centimetres, amateur secondary, maximum bandwidth ? kHz
 name_french: 23 centimètres, amateur secondaire, bande passante maximale ? kHz
 blocks:
 
-- start_label: '1240.0000'
-  end_label: ''
-  colour: '#cccccc'
-
-- start_label: ''
-  end_label: '1300.0000'
+- start: '1240.0000'
+  end: '1300.0000'
+  height: '1.0'
   colour: '#cccccc'

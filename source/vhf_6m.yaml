@@ -1,12 +1,11 @@
 ---
+#   https://en.wikipedia.org/wiki/6-meter_band
+#   https://fr.wikipedia.org/wiki/Bande_des_6_m%C3%A8tres
 name_english: 6 metres, amateur exclusive, maximum bandwidth 6 kHz
 name_french: 6 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
 
-- start_label: '50.0000'
-  end_label: ''
-  colour: '#cccccc'
-
-- start_label: ''
-  end_label: '54.0000'
+- start: '50.0000'
+  end: '54.0000'
+  height: '1.0'
   colour: '#cccccc'
