@@ -1,4 +1,5 @@
 ---
+# VHF = 30 to 300 MHz
 #   https://en.wikipedia.org/wiki/1.25-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_1,25_m%C3%A8tre
 name_english: 1.25 metres, amateur secondary, maximum bandwidth 6 kHz
@@ -74,3 +75,4 @@ blocks:
   end: '225.0000'
   height: '1.0'
   colour: '#00ccff'  # FM repeaters
+...

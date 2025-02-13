@@ -1,4 +1,5 @@
 ---
+# HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/60-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_60_m%C3%A8tres
 name_english: 60 metres, amateur secondary, maximum bandwidth 3 kHz
@@ -49,3 +50,4 @@ blocks:
   end: '5.4065'
   height: '1.0'
   colour: '#ff00ff'  # CW, SSB
+...

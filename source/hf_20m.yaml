@@ -1,4 +1,5 @@
 ---
+# HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/20-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_20_m%C3%A8tres
 name_english: 20 metres, amateur exclusive, maximum bandwidth 6 kHz
@@ -34,3 +35,4 @@ blocks:
   end: '14.3500'
   height: '1.0'
   colour: '#cc00ff'  # CW, SSB
+...

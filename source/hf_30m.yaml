@@ -1,4 +1,5 @@
 ---
+# HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/WARC_bands
 name_english: 30 metres, amateur exclusive, maximum bandwidth 6 kHz
 name_french: 30 mètres, amateur exclusive, bande passante maximale 6 kHz
@@ -18,3 +19,4 @@ blocks:
   end: '10.1500'
   height: '1.0'
   colour: '#ff00cc'  # CW, narrowband digital, wideband digital
+...

@@ -1,4 +1,5 @@
 ---
+# HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/80-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_80_m%C3%A8tres
 name_english: 80 metres, amateur exclusive, maximum bandwidth 6 kHz
@@ -39,3 +40,4 @@ blocks:
   end: '4.0000'
   height: '1.0'
   colour: '#0000ff'  # SSB
+...

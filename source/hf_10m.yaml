@@ -1,4 +1,5 @@
 ---
+# HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/10-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_10_m%C3%A8tres
 name_english: 10 metres, amateur exclusive, maximum bandwidth 6 kHz
@@ -64,3 +65,4 @@ blocks:
   end: '29.7000'
   height: '1.0'
   colour: '#000000'  # guard
+...

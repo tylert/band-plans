@@ -1,4 +1,5 @@
 ---
+# UHF = 300 to 3000 MHz
 #   https://en.wikipedia.org/wiki/13-centimeter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_13_cm
 name_english: 13 centimetres, amateur secondary, maximum bandwidth ? kHz
@@ -9,3 +10,4 @@ blocks:
   end: '2450.0000'
   height: '1.0'
   colour: '#cccccc'
+...

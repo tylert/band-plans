@@ -1,4 +1,5 @@
 ---
+# MF = 0.3 to 3 MHz
 #   https://en.wikipedia.org/wiki/630-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_630_m%C3%A8tres
 name_english: 630 metres, amateur secondary, maximum bandwidth 1 kHz
@@ -9,3 +10,4 @@ blocks:
   end: '0.4790'
   height: '1.0'
   colour: '#ffcc00'  # CW, narrowband digital
+...

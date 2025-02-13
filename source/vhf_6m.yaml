@@ -1,4 +1,5 @@
 ---
+# VHF = 30 to 300 MHz
 #   https://en.wikipedia.org/wiki/6-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_6_m%C3%A8tres
 name_english: 6 metres, amateur exclusive, maximum bandwidth 6 kHz
@@ -9,3 +10,4 @@ blocks:
   end: '54.0000'
   height: '1.0'
   colour: '#cccccc'
+...
