@@ -2,12 +2,10 @@
 # UHF = 300 to 3000 MHz
 #   https://en.wikipedia.org/wiki/70-centimeter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_70_cm
-name_english: 70 centimetres, amateur secondary, maximum bandwidth 12 MHz
-name_french: 70 centimètres, amateur secondaire, bande passante maximale 12 MHz
 blocks:
 
-- start: '430.0000'
-  end: '450.0000'
+- start: '430.0'
+  end: '450.0'
   height: '1.0'
   colour: '#cccccc'
 ...

@@ -2,8 +2,6 @@
 # LF = 0.03 to 0.3 MHz
 #   https://en.wikipedia.org/wiki/2200-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_2_kilom%C3%A8tres
-name_english: 2200 metres, amateur secondary, maximum bandwidth ? kHz
-name_french: 2200 mètres, amateur secondaire, bande passante maximale ? kHz
 blocks:
 
 - start: '0.1357'

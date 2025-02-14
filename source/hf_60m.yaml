@@ -2,8 +2,6 @@
 # HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/60-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_60_m%C3%A8tres
-name_english: 60 metres, amateur secondary, maximum bandwidth 3 kHz
-name_french: 60 mètres, amateur secondaire, bande passante maximale 3 kHz
 blocks:
 
 # Channel 1
@@ -19,22 +17,22 @@ blocks:
   colour: '#ff00ff'  # CW, SSB
 
 # Channel 3
-#- start: '5.3570'
-#  end: '5.3600'
+#- start: '5.357'
+#  end: '5.36'
 #  height: '1.0'
 #  colour: '#ff00ff'  # CW, SSB
 
 - start: '5.3515'
-  end: '5.3540'
+  end: '5.354'
   height: '1.0'
   colour: '#ffcc00'  # CW, narrowband digital
 
-- start: '5.3540'
-  end: '5.3660'
+- start: '5.354'
+  end: '5.366'
   height: '1.0'
   colour: '#ff00ff'  # CW, SSB
 
-- start: '5.3660'
+- start: '5.366'
   end: '5.3665'
   height: '1.0'
   colour: '#00cc00'  # weak signal, narrowband digital

@@ -2,12 +2,10 @@
 # UHF = 300 to 3000 MHz
 #   https://en.wikipedia.org/wiki/23-centimeter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_23_cm
-name_english: 23 centimetres, amateur secondary, maximum bandwidth ? kHz
-name_french: 23 centimètres, amateur secondaire, bande passante maximale ? kHz
 blocks:
 
-- start: '1240.0000'
-  end: '1300.0000'
+- start: '1240.0'
+  end: '1300.0'
   height: '1.0'
   colour: '#cccccc'
 ...

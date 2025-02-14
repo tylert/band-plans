@@ -2,21 +2,19 @@
 # HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/20-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_20_m%C3%A8tres
-name_english: 20 metres, amateur exclusive, maximum bandwidth 6 kHz
-name_french: 20 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
 
-- start: '14.0000'
-  end: '14.0700'
+- start: '14.0'
+  end: '14.07'
   height: '1.0'
   colour: '#ff0000'  # CW
 
-- start: '14.0700'
-  end: '14.0950'
+- start: '14.07'
+  end: '14.095'
   height: '1.0'
   colour: '#ffcc00'  # CW, narrowband digital
 
-- start: '14.0950'
+- start: '14.095'
   end: '14.0995'
   height: '1.0'
   colour: '#ff00cc'  # CW, narrowband digital, wideband digital
@@ -27,12 +25,12 @@ blocks:
   colour: '#ff00ff'  # beacons
 
 - start: '14.1005'
-  end: '14.1120'
+  end: '14.112'
   height: '1.0'
   colour: '#ff00cc'  # CW, narrowband digital, wideband digital
 
-- start: '14.1120'
-  end: '14.3500'
+- start: '14.112'
+  end: '14.35'
   height: '1.0'
   colour: '#cc00ff'  # CW, SSB
 ...

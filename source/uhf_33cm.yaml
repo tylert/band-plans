@@ -2,12 +2,10 @@
 # UHF = 300 to 3000 MHz
 #   https://en.wikipedia.org/wiki/33-centimeter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_33_cm
-name_english: 33 centimetres, amateur secondary, maximum bandwidth 12 MHz
-name_french: 33 centimètres, amateur secondaire, bande passante maximale 12 MHz
 blocks:
 
-- start: '902.0000'
-  end: '928.0000'
+- start: '902.0'
+  end: '928.0'
   height: '1.0'
   colour: '#cccccc'
 ...

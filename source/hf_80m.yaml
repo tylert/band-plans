@@ -2,42 +2,40 @@
 # HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/80-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_80_m%C3%A8tres
-name_english: 80 metres, amateur exclusive, maximum bandwidth 6 kHz
-name_french: 80 mètres, amateur exclusif, bande passante maximale 6 kHz
 blocks:
 
-- start: '3.5000'
-  end: '3.5800'
+- start: '3.5'
+  end: '3.58'
   height: '1.0'
   colour: '#ff0000'  # CW
 
-- start: '3.5800'
-  end: '3.5830'
+- start: '3.58'
+  end: '3.583'
   height: '1.0'
   colour: '#ffcc00'  # digital
 
-- start: '3.5830'
-  end: '3.5890'
+- start: '3.583'
+  end: '3.589'
   height: '1.0'
   colour: '#ff0000'  # CW
 
-- start: '3.5890'
-  end: '3.6000'
+- start: '3.589'
+  end: '3.6'
   height: '1.0'
   colour: '#ffcc00'  # digital
 
-- start: '3.6000'
-  end: '3.8420'
+- start: '3.6'
+  end: '3.842'
   height: '1.0'
   colour: '#0000ff'  # SSB
 
-- start: '3.8420'
-  end: '3.8450'
+- start: '3.842'
+  end: '3.845'
   height: '1.0'
   colour: '#00ccff'  # SSTV
 
-- start: '3.8450'
-  end: '4.0000'
+- start: '3.845'
+  end: '4.0'
   height: '1.0'
   colour: '#0000ff'  # SSB
 ...

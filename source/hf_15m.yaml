@@ -2,52 +2,50 @@
 # HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/15-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_15_m%C3%A8tres
-name_english: 15 metres, amateur exclusive, maximum bandwidth 6 kHz
-name_french: 15 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
 
-- start: '21.0000'
-  end: '21.0700'
+- start: '21.0'
+  end: '21.07'
   height: '1.0'
   colour: '#ff0000'  # CW
 
-- start: '21.0700'
-  end: '21.0800'
+- start: '21.07'
+  end: '21.08'
   height: '1.0'
   colour: '#ffcc00'  # CW, narrowband digital, wideband digital
 
-- start: '21.0800'
-  end: '21.0830'
+- start: '21.08'
+  end: '21.083'
   height: '1.0'
   colour: '#ff00cc'  # digital
 
-- start: '21.0830'
-  end: '21.0900'
+- start: '21.083'
+  end: '21.09'
   height: '1.0'
   colour: '#ffcc00'  # CW, narrowband digital, wideband digital
 
-- start: '21.0900'
-  end: '21.1250'
+- start: '21.09'
+  end: '21.125'
   height: '1.0'
   colour: '#ff00cc'  # digital
 
-- start: '21.1250'
-  end: '21.1500'
+- start: '21.125'
+  end: '21.15'
   height: '1.0'
   colour: '#ff0000'  # CW
 
-- start: '21.1500'
-  end: '21.3400'
+- start: '21.15'
+  end: '21.34'
   height: '1.0'
   colour: '#0000ff'  # SSB
 
-- start: '21.3400'
-  end: '21.3430'
+- start: '21.34'
+  end: '21.343'
   height: '1.0'
   colour: '#00ccff'  # SSTV
 
-- start: '21.3430'
-  end: '21.4500'
+- start: '21.343'
+  end: '21.45'
   height: '1.0'
   colour: '#0000ff'  # SSB
 ...

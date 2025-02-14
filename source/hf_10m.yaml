@@ -2,16 +2,14 @@
 # HF = 3 to 30 MHz
 #   https://en.wikipedia.org/wiki/10-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_10_m%C3%A8tres
-name_english: 10 metres, amateur exclusive, maximum bandwidth 6 kHz
-name_french: 10 mètres, amateur exclusive, bande passante maximale 6 kHz
 blocks:
 
-- start: '28.0000'
-  end: '28.0700'
+- start: '28.0'
+  end: '28.07'
   height: '1.0'
   colour: '#ff0000'  # CW
 
-- start: '28.0700'
+- start: '28.07'
   end: '28.1895'
   height: '1.0'
   colour: '#ffcc00'  # CW, narrowband digital, wideband digital
@@ -22,47 +20,47 @@ blocks:
   colour: '#ff00cc'  # beacons
 
 - start: '28.2005'
-  end: '28.3000'
+  end: '28.3'
   height: '1.0'
   colour: '#ff00ff'  # CW, beacons
 
-- start: '28.3000'
-  end: '28.3200'
+- start: '28.3'
+  end: '28.32'
   height: '1.0'
   colour: '#ffcc00'  # CW, narrowband digital, wideband digital
 
-- start: '28.3200'
-  end: '28.6800'
+- start: '28.32'
+  end: '28.68'
   height: '1.0'
   colour: '#0000ff'  # SSB
 
-- start: '28.6800'
-  end: '28.6830'
+- start: '28.68'
+  end: '28.683'
   height: '1.0'
   colour: '#00ffcc'  # SSTV
 
-- start: '28.6830'
-  end: '29.3000'
+- start: '28.683'
+  end: '29.3'
   height: '1.0'
   colour: '#0000ff'  # SSB
 
-- start: '29.3000'
-  end: '29.5100'
+- start: '29.3'
+  end: '29.51'
   height: '1.0'
   colour: '#ccff00'  # satellite
 
-- start: '29.5100'
-  end: '29.5200'
+- start: '29.51'
+  end: '29.52'
   height: '1.0'
   colour: '#000000'  # guard
 
-- start: '29.5200'
-  end: '29.6900'
+- start: '29.52'
+  end: '29.69'
   height: '1.0'
   colour: '#00ccff'  # FM, digital voice
 
-- start: '29.6900'
-  end: '29.7000'
+- start: '29.69'
+  end: '29.7'
   height: '1.0'
   colour: '#000000'  # guard
 ...
