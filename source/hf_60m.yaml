@@ -1,5 +1,5 @@
 ---
-# HF = 3 to 30 MHz
+# 5.? to 5.? MHz
 #   https://en.wikipedia.org/wiki/60-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_60_m%C3%A8tres
 blocks:
@@ -8,19 +8,19 @@ blocks:
 - start: '5.3305'
   end: '5.3335'
   height: '1.0'
-  colour: '#ff00ff'  # CW, SSB
+  colour: '#ff00ff'  # CW, USB
 
 # Channel 2
 - start: '5.3465'
   end: '5.3495'
   height: '1.0'
-  colour: '#ff00ff'  # CW, SSB
+  colour: '#ff00ff'  # CW, USB
 
 # Channel 3
 #- start: '5.357'
 #  end: '5.36'
 #  height: '1.0'
-#  colour: '#ff00ff'  # CW, SSB
+#  colour: '#ff00ff'  # CW, USB
 
 - start: '5.3515'
   end: '5.354'
@@ -30,7 +30,7 @@ blocks:
 - start: '5.354'
   end: '5.366'
   height: '1.0'
-  colour: '#ff00ff'  # CW, SSB
+  colour: '#ff00ff'  # CW, USB
 
 - start: '5.366'
   end: '5.3665'
@@ -41,11 +41,11 @@ blocks:
 - start: '5.3715'
   end: '5.3745'
   height: '1.0'
-  colour: '#ff00ff'  # CW, SSB
+  colour: '#ff00ff'  # CW, USB
 
 # Channel 5
 - start: '5.4035'
   end: '5.4065'
   height: '1.0'
-  colour: '#ff00ff'  # CW, SSB
+  colour: '#ff00ff'  # CW, USB
 ...

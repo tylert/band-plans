@@ -1,5 +1,5 @@
 ---
-# HF = 3 to 30 MHz
+# 21.0 to 21.45 MHz
 #   https://en.wikipedia.org/wiki/15-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_15_m%C3%A8tres
 blocks:

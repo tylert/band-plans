@@ -1,5 +1,5 @@
 ---
-# UHF = 300 to 3000 MHz
+# 902.0 to 928.0 MHz
 #   https://en.wikipedia.org/wiki/33-centimeter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_33_cm
 blocks:

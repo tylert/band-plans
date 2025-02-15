@@ -1,5 +1,5 @@
 ---
-# UHF = 300 to 3000 MHz
+# 2.3 to 2.45 GHz
 #   https://en.wikipedia.org/wiki/13-centimeter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_13_cm
 blocks:

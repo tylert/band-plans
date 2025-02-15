@@ -1,5 +1,5 @@
 ---
-# VHF = 30 to 300 MHz
+# 144.0 to 148.0 MHz
 #   https://en.wikipedia.org/wiki/2-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_2_m%C3%A8tres
 blocks:

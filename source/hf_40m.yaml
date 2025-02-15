@@ -1,5 +1,5 @@
 ---
-# HF = 3 to 30 MHz
+# 7.0 to 7.3 MHz
 #   https://en.wikipedia.org/wiki/40-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_40_m%C3%A8tres
 blocks:
@@ -12,22 +12,27 @@ blocks:
 - start: '7.035'
   end: '7.04'
   height: '1.0'
-  colour: '#ff00cc'  # CW, RTTY
+  colour: '#ff00cc'  # CW, RTTY, narrowband digital
 
 - start: '7.04'
-  end: '7.05'
+  end: '7.07'
   height: '1.0'
-  colour: '#ffcc00'  # CW, RTTY, data, phone, image
+  colour: '#ffcc00'  # CW, SSB
 
-- start: '7.05'
+- start: '7.07'
+  end: '7.125'
+  height: '1.0'
+  colour: '#cc00ff'  # CW, RTTY, digital, image SSB
+
+- start: '7.125'
   end: '7.165'
   height: '1.0'
-  colour: '#cc00ff'  # CW, SSB
+  colour: '#ffccff'  # CW, SSB
 
 - start: '7.165'
   end: '7.175'
   height: '1.0'
-  colour: '#ffccff'  # CW, SSB, image
+  colour: '#ffffcc'  # SSTV
 
 - start: '7.175'
   end: '7.3'

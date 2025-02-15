@@ -1,5 +1,5 @@
 ---
-# HF = 3 to 30 MHz
+# 3.5 to 4.0 MHz
 #   https://en.wikipedia.org/wiki/80-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_80_m%C3%A8tres
 blocks:

@@ -1,5 +1,5 @@
 ---
-# MF = 0.3 to 3 MHz
+# 1.8 to 2.0 MHz
 #   https://en.wikipedia.org/wiki/160-meter_band
 #   https://fr.wikipedia.org/wiki/Bande_des_160_m%C3%A8tres
 blocks:
