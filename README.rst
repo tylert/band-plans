@@ -21,7 +21,7 @@ Band Plans
     THF 0.3 to 3   THz
 
 References:
-* http://wp.rac.ca/rac-0-30-mhz-band-plan/
+* http://wp.rac.ca/rac-0-30-mhz-band-plan
 * http://rac.ca/downloads/hfbandplan.jpg
 * http://rac.ca/en/rac/services/bandplans/hf
 * http://rac.ca/en/rac/services/bandplans/allband.php
